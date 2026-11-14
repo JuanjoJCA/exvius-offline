@@ -23,6 +23,7 @@ class MemoryArchive:
 
 
 class SpanishDialogueTests(unittest.TestCase):
+    """Checks that Spanish rows remain compatible with the original client."""
     def test_catalogue_hashes_sources_and_commands_are_valid(self):
         import json
         import re
