@@ -47,3 +47,5 @@
 - Se añadió `tools/build_spanish_test_apk.ps1` para automatizar el staging del APK, las dos decodificaciones apktool (cliente sin smali y código smali), la reparación de CPK con el catálogo español, la regeneración de paquetes, las pruebas, la compilación y la firma local.
 - Se documentó su uso y los recursos locales que faltan en `docs/PLAN_APK_PRUEBA_ES.md`.
 - La APK todavía no está compilada ni instalada. El entorno de esta sesión no es Windows y no dispone de las herramientas privadas ignoradas por Git ni de los datos fuente locales completos. El lanzador requiere esos recursos en un Windows preparado y no publica los paquetes de datos por sí solo.
+
+- Se añadió `tools/prepare_android_build_dependencies.ps1` para preparar localmente apktool 3.0.3 (con SHA verificado), Frida Gadget 17.24.3 arm64, frida-compile 19.1.0 y CriCodecs 1.2.0. Sigue siendo necesario el SDK Android y disponer del conjunto de datos fuente.
