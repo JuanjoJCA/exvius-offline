@@ -80,6 +80,7 @@ SCENE_ENGLISH_NAMES = {'111040101': {'200000': '???', '200001': 'Gress',
                        '650010127': {'200011': 'Rain & Lasswell'}}
 
 _DIALOGUE_ENGLISH = None
+_DIALOGUE_SPANISH = None
 
 
 def normalize_dialogue_commands(text):
@@ -118,6 +119,47 @@ def apply_english_dialogue(archive, members):
             repaired += 1
         if repaired:
             archive.replace_bytes(index, ''.join('^'.join([i] + cells) + '\n'
+                                                 for i, cells in values.items()).encode('utf8'))
+            changed += repaired
+    return changed
+
+
+
+def apply_spanish_dialogue(archive, members):
+    """Replace the client's held English text cell with reviewed Spanish dialogue.
+
+    The v9 client requests LANGUAGE_ENGLISH, so Spanish is deliberately placed
+    in the first localized cell rather than the separate ES column.
+    """
+    global _DIALOGUE_SPANISH
+    if _DIALOGUE_SPANISH is None:
+        path = PROJECT / 'source/server/content/dialogue_es.json'
+        _DIALOGUE_SPANISH = (json.loads(path.read_text(encoding='utf8'))['translations']
+                             if path.is_file() else {})
+    changed = 0
+    for name, index in members.items():
+        if not name.endswith('_sg.txt'):
+            continue
+        values = localized_rows(archive.file_bytes(index))
+        repaired = 0
+        for text_id, cells in values.items():
+            if not cells:
+                continue
+            key = hashlib.sha256(cells[0].encode('utf8')).hexdigest()
+            replacement = _DIALOGUE_SPANISH.get(key)
+            if replacement is None:
+                continue
+            spanish = replacement['spanish']
+            if replacement['source'] != cells[0] or not english_source(spanish):
+                raise ValueError('Invalid Spanish translation source: ' + key)
+            if re.findall(r'<[^>]+>', normalize_dialogue_commands(cells[0])) != re.findall(r'<[^>]+>', spanish):
+                raise ValueError('Spanish translation changed original game commands: ' + key)
+            if '^' in spanish or '\\n' in spanish or '\\r' in spanish:
+                raise ValueError('Spanish translation cannot change the localized row structure: ' + key)
+            cells[0] = spanish
+            repaired += 1
+        if repaired:
+            archive.replace_bytes(index, ''.join('^'.join([i] + cells) + '\\n'
                                                  for i, cells in values.items()).encode('utf8'))
             changed += repaired
     return changed
@@ -548,6 +590,7 @@ def localized_package(source, memorial=None, scene_alias=None):
     archive = cpk.load(str(source))
     members = {entry.full_path: index for index, entry in enumerate(archive.file_infos())}
     added = apply_english_dialogue(archive, members)
+    added += apply_spanish_dialogue(archive, members)
     # Fill reviewed base dialogue before speaker IDs are scoped to this scene.
     # Otherwise a newly resolved town speaker changes the source hash before
     # its English translation can fill an empty retail cell.
@@ -587,6 +630,7 @@ def localized_package(source, memorial=None, scene_alias=None):
             added += 1
     members = {entry.full_path: index for index, entry in enumerate(archive.file_infos())}
     added += apply_english_dialogue(archive, members)
+    added += apply_spanish_dialogue(archive, members)
     scene_id = re.sub(r'^Ver\d+_', '', source.stem)
     for name, expected_hash in SCENE_MOVIE_ATTACHMENTS.get(scene_id, {}).items():
         if name in members:
