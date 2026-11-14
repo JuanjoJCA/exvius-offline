@@ -33,8 +33,11 @@ Require-Command java
 Require-Command javac
 Require-Command python
 Require-Command node
-Require-Command npm
 Require-Command keytool
+$javaVersion = (& java -version 2>&1 | Out-String)
+if ($javaVersion -notmatch 'version "11') { throw "Se requiere Java 11. Versión detectada: $javaVersion" }
+$pythonVersion = (& python --version 2>&1 | Out-String).Trim()
+if ($pythonVersion -notmatch '^Python 3\.10\.') { throw "Se requiere Python 3.10. Versión detectada: $pythonVersion" }
 if (-not $env:ANDROID_HOME) { throw 'Define ANDROID_HOME con la ruta del Android SDK.' }
 $sdk = $env:ANDROID_HOME
 Require-File (Join-Path $sdk 'platforms/android-33/android.jar') 'Android SDK Platform 33'
