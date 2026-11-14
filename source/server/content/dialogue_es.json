@@ -215,6 +215,122 @@
     "595a505186815b9ab18af8eb1b0c8f05f55d5a0fb2de67a33db130142b565900": {
       "source": "<name=100000><br>Still, we cannot afford to lose.<wait=60><br>Together, we will <br>win this battle!<wait=120>",
       "spanish": "<name=100000><br>Aun así, no podemos permitirnos perder.<wait=60><br>Unamos nuestras fuerzas y<br>¡ganaremos esta batalla!<wait=120>"
+    },
+    "6f8c6658f76368e8ff2e1dccbb47ba38b4a89d93accd65e9c96fd9c6b6201b5e": {
+      "source": "<name=100000><br>Their numbers and attacks are<br>increasing....<wait=120>",
+      "spanish": "<name=100000><br>Cada vez son más numerosos y sus ataques<br>se intensifican...<wait=120>"
+    },
+    "894f161a41b83a4e87d4bdea1ece1630ea8b744305e0599e12935e50c2b427f7": {
+      "source": "<name=100000><br>Also, <wait=15>I can feel a huge presence<br>coming<br>to me.<wait=120>",
+      "spanish": "<name=100000><br>Además, <wait=15>noto una presencia inmensa<br>que se acerca<br>hacia aquí.<wait=120>"
+    },
+    "0590486fb580c211757d563addf718896a104f11e7f4f90b56078f9c8ec14b24": {
+      "source": "<name=100001><br><speed=4>This rumbling...<wait=30><speed=2>No way!?<wait=120>",
+      "spanish": "<name=100001><br><speed=4>Este temblor...<wait=30><speed=2>¡¿No puede ser?!<wait=120>"
+    },
+    "c8798a34d0b0cfb1efd6080a3de1ae34368ed5e145c45b0339b7d3c6321b3f5e": {
+      "source": "<name=100002><br>Both of you!<br>Start with the enemy in front of you!<wait=120>",
+      "spanish": "<name=100002><br>¡Vosotros dos!<br>¡Primero encargaos del enemigo que tenéis delante!<wait=120>"
+    },
+    "2f6645b533b879689c7edc06006d12286306e03d9e6bfd33bd6660b06160ba1e": {
+      "source": "Dark Asura",
+      "spanish": "Asura oscuro"
+    },
+    "11b39c93777e8f1f3983bdba7c72b22fe68cfea20c677e9de53e17cb7dbfb19f": {
+      "source": "Agent",
+      "spanish": "Agente"
+    },
+    "8bbc8cbe6064a6a8402b16462a33af8dca312cf2546205497111f377fea6759d": {
+      "source": "Dark Bahamut",
+      "spanish": "Bahamut oscuro"
+    },
+    "8e822270edbd63587411e911305037e54a81316f99cb117c3b30172efba4e271": {
+      "source": "<name=100000><br>...He said something <br>that bothered me.<wait=120>",
+      "spanish": "<name=100000><br>...Ha dicho algo<br>que me ha dejado preocupado.<wait=120>"
+    },
+    "bd1b55f410a8f1e95723ae70277fad3dc9f078699a58ff55cea1a4a75f05dac4": {
+      "source": "<name=100001><br><speed=4>Dark Dragon King, huh?<wait=120>",
+      "spanish": "<name=100001><br><speed=4>¿Rey Dragón Oscuro, eh?<wait=120>"
+    },
+    "a50bd1366c0b4e2d924bb11e6e8c27d11aa45c009cd05474a91f2d3235376552": {
+      "source": "<name=100002><br>I wonder if that big winged monster is<br>Bahamut...?<wait=120>",
+      "spanish": "<name=100002><br>¿Ese monstruo alado tan enorme<br>será Bahamut...?<wait=120>"
+    },
+    "6b22518ff22a13bfeb5d9353027a9e45c2debe471a8248688aeac7f9bd0c7ce5": {
+      "source": "<name=100001><br>Most likely, it is.<wait=120>",
+      "spanish": "<name=100001><br>Lo más probable es que sí.<wait=120>"
+    },
+    "4e0301c5221cd37acd1acaeb0158cafb3334578aaa6e3a83ac91e5f7482a1e33": {
+      "source": "<name=100001><br>Thus said the dark Ramuh.<wait=30><br>'I am born of<br>the black crystal.'<wait=120>",
+      "spanish": "<name=100001><br>Eso fue lo que dijo Ramuh oscuro:<wait=30><br>«He nacido<br>del cristal negro».<wait=120>"
+    },
+    "ab1e3e75d231f03db68629c613abe3187792eedefceb2820c5138bb63fab5626": {
+      "source": "<name=100000>In other words,<br>including the <wait=15>Dark Dragon King,<br>they are different from the eidolons we know<br>.<wait=120>",
+      "spanish": "<name=100000>En otras palabras,<br>incluido el <wait=15>Rey Dragón Oscuro,<br>son seres distintos de los esperes<br>que conocemos.<wait=120>"
+    },
+    "e7fe4562bb0cf956af2987dac8e2dc398101269febf7d4b750e29af335266df2": {
+      "source": "<name=100001><br>It may not be unrelated, but <wait=15><br>It's definitely<br> something unknown.<wait=120>",
+      "spanish": "<name=100001><br>Puede que exista alguna relación, pero <wait=15><br>sin duda se trata de algo<br>que desconocemos.<wait=120>"
+    },
+    "921cf413468d41d65c5f3a2f2793d977eef2fac2e1cf3e9ac11c45b014d5fdc1": {
+      "source": "<name=100002><br><speed=4>It's Bahamut, but<br>It's not Bahamut...<wait=120>",
+      "spanish": "<name=100002><br><speed=4>Es Bahamut, pero<br>no es Bahamut...<wait=120>"
+    },
+    "e09fe3c6e3d13cc202a16d7f3173f851ba237450c69173805f113ff6c2a61515": {
+      "source": "<name=300014><br><speed=4>──Stupid.<wait=120>",
+      "spanish": "<name=300014><br><speed=4>──Insensatos.<wait=120>"
+    },
+    "8f39c456f704b30b08201e7ee7c95684ddc1500a6250b81a46048735108b3c42": {
+      "source": "<name=100001><br>Finally, it's here.<wait=120>",
+      "spanish": "<name=100001><br>Por fin ha llegado.<wait=120>"
+    },
+    "36306f1961bcc56db40af38c7e392ad19501cdae0d9be3ee14210f846b7b89bb": {
+      "source": "<name=100000><br>Bahamut!<wait=120>",
+      "spanish": "<name=100000><br>¡Bahamut!<wait=120>"
+    },
+    "592033aa5a4c5e72c46b6311eedbb645fdcd6446a7687f3ee3dd327525e18b11": {
+      "source": "<name=100002><br>Can we win...?<wait=120>",
+      "spanish": "<name=100002><br>¿Podremos ganar...?<wait=120>"
+    },
+    "31fd99b305ed7ae32e6588a7da94bb259b35b0bd56fba1dbca037e784c754b0d": {
+      "source": "<name=100000><br>Of course we will win.<wait=30><br>No, we will definitely win!<wait=120>",
+      "spanish": "<name=100000><br>Claro que ganaremos.<wait=30><br>¡No, vamos a ganar, cueste lo que cueste!<wait=120>"
+    },
+    "5fa096fc5ce7e3392ac2eb682b4b6a5e13e53ab4b5cbcadd5056fe070d6b4f88": {
+      "source": "<name=100002><br>Rain...<wait=45>Yeah! <wait=15>That's right!<wait=120>",
+      "spanish": "<name=100002><br>Rain...<wait=45>¡Sí! <wait=15>¡Tienes razón!<wait=120>"
+    },
+    "dc688d21c93b769575de74e3f0bf8a26e5b21fa7426ad649184d6b71be403c04": {
+      "source": "<name=100000><br>Here it comes!<wait=120>",
+      "spanish": "<name=100000><br>¡Ahí viene!<wait=120>"
+    },
+    "a26b4d3edcc18e2064a5539193faca58d0f02970676d9a573f338786441d7b92": {
+      "source": "<name=100001><br>So it was you and<br>Alexander after all.<wait=120>",
+      "spanish": "<name=100001><br>Así que al final erais tú<br>y Alejandro.<wait=120>"
+    },
+    "24b38f6f58382e6280de5fa41d44964258072f004a30eaaadfb9818a529f144f": {
+      "source": "<name=300013><br>You are without justice.<br>The sacred mechanical castle shall judge you.<wait=120>",
+      "spanish": "<name=300013><br>Carecéis de justicia.<br>El castillo mecánico sagrado os juzgará.<wait=120>"
+    },
+    "4c7af55c318170b09d6cf7009a043fcbed3b77a148efcf967a45343cfe96f8de": {
+      "source": "<name=100000><br>Gah!<br>So much for talking this out!<wait=120>",
+      "spanish": "<name=100000><br>¡Maldición!<br>¡Está claro que no hay nada que hablar!<wait=120>"
+    },
+    "1e8424f1813abee0be21cb8c174847e7e7ae31aa6fb5bec8b1b741ef59f9b808": {
+      "source": "<name=100001><br>If we all work together,<br>we should be able to defeat them!<wait=120>",
+      "spanish": "<name=100001><br>¡Si unimos nuestras fuerzas,<br>deberíamos poder derrotarlos!<wait=120>"
+    },
+    "9f8792f7983682d72420f15ff5c5d340a12e5b63f9ea9156d8c9548712669a91": {
+      "source": "<name=100002><br>Everyone! Let's win this!<wait=120>",
+      "spanish": "<name=100002><br>¡Todos! ¡Vamos a ganar!<wait=120>"
+    },
+    "cb56326d511326260e6763cafe19985a1895a3c5d3f59a503ab22dc5dd5a1650": {
+      "source": "<name=300013><br>You will never<br>reach the Dark Dragon King...!<wait=120>",
+      "spanish": "<name=300013><br>¡Jamás conseguiréis<br>llegar hasta el Rey Dragón Oscuro...!<wait=120>"
+    },
+    "8e0730f6bf939414151f12cabaf09407c44f09f96a0e6193be667c9fa0b0f31e": {
+      "source": "<name=300013><br>The judge's sacred judgment<br>will burn you to ashes!<wait=120>",
+      "spanish": "<name=300013><br>¡El juicio sagrado del juez<br>os reducirá a cenizas!<wait=120>"
     }
   }
 }
