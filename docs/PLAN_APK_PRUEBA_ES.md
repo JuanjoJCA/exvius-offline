@@ -49,3 +49,27 @@ El repositorio sí contiene APKs anteriores del producto Exvius Offline en `rele
 ## Siguiente lote de traducción
 
 El catálogo de recuperación identifica 143 registros para las escenas `700010401–700010408`. Parte del inglés procede de recursos japoneses preservados y no debe tratarse como guion inglés oficial. Traducir por subescenas, cotejar el sentido con el material fuente disponible, mantener la terminología del juego y ejecutar las pruebas del inyector tras cada lote. No incorporar estas cadenas al catálogo aceptado hasta completar esa revisión.
+
+
+## Lanzador automatizado de Windows (14-11-2026)
+
+Se ha añadido `tools/build_spanish_test_apk.ps1`. El lanzador verifica el hash del APK, prepara las dos decodificaciones necesarias (recursos y smali), aplica los diálogos españoles a los CPK, regenera los paquetes de datos, ejecuta pruebas, compila el runtime, empaqueta, firma y verifica la APK.
+
+Desde la raíz de una copia limpia de `traduccion-es`, en Windows:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File tools/build_spanish_test_apk.ps1 -OriginalApk "C:\ruta\FFEXVIUS-9.0.0.apk"
+```
+
+El lanzador no descarga herramientas de terceros. Antes de ejecutarlo deben estar instalados los requisitos de `source/README.md` y existir los siguientes recursos locales, excluidos de Git:
+
+- `tools/vendor/apktool_3.0.3.jar`
+- `tools/vendor/frida-gadget-17.24.3-android-arm64.so`
+- `tools/vendor/android-agent/node_modules/frida-compile/dist/cli.js`
+- `tools/vendor/python/cricodecs` y sus dependencias
+- Android SDK platform 33 y build-tools 36.0.0
+- Los datos fuente completos bajo `data/` (Memorial, caché Global, MST decodificado y overlays)
+
+El script solicita la contraseña del keystore de pruebas y no la guarda en Git. El APK original y el keystore permanecen locales.
+
+**Publicación pendiente:** el script regenera los paquetes de datos localizados en `source/build/distribution/assets`, pero no los publica. Para que el juego descargue los datos al arrancar, esos paquetes deben publicarse como assets de la release indicada por `-DataTag`.
