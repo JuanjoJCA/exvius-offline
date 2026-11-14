@@ -83,6 +83,6 @@ Con Java 11, Python 3.10 y Node.js/npm ya instalados, ejecutar primero:
 powershell -ExecutionPolicy Bypass -File tools/prepare_android_build_dependencies.ps1
 ```
 
-Este preparador descarga apktool 3.0.3 y verifica su SHA-256, descarga y descomprime Frida Gadget 17.24.3 arm64, instala `frida-compile` 19.1.0 y `cricodecs` 1.2.0 en `tools/vendor/`. Las versiones de apktool y Frida se corresponden con las fijadas por el proyecto; la descarga de apktool se valida contra el hash publicado en su distribución. <Cite refs="turn265394search1,turn265394search2,turn265394search11,turn120551search0,turn493374search5" />
+Este preparador descarga apktool 3.0.3 y verifica su SHA-256, descarga y descomprime Frida Gadget 17.24.3 arm64, instala `frida-compile` 19.1.0 y `cricodecs` 1.2.0 en `tools/vendor/`. Las versiones de apktool y Frida se corresponden con las fijadas por el proyecto; la descarga de apktool se valida contra el SHA-256 publicado en su distribución. Referencias oficiales: [Apktool 3.0.3](https://github.com/iBotPeaches/Apktool/releases/tag/v3.0.3), [Frida 17.24.3](https://github.com/frida/frida/releases/tag/17.24.3), [frida-compile 19.1.0](https://www.npmjs.com/package/frida-compile) y [CriCodecs 1.2.0](https://pypi.org/project/cricodecs/1.2.0/).
 
 Sigue siendo necesario instalar Android SDK platform 33 y build-tools 36.0.0, y disponer de los datos fuente completos del juego bajo `data/`. El script principal comprueba los requisitos antes de modificar o generar artefactos.
