@@ -141,6 +141,33 @@ class LocalizationRegression(unittest.TestCase):
         self.assertEqual(content.localized_rows(archive.file_bytes(0))['210001'],
                          [english, 'ZH', 'KO', 'FR', 'DE', 'ES', 'TH', 'ID'])
 
+
+    def test_spanish_dialogue_replaces_only_held_language_and_preserves_commands(self):
+        source = '<name=300001><br>Hello, warrior!<wait=30><br>'
+        spanish = '<name=300001><br>¡Hola, guerrero!<wait=30><br>'
+        key = hashlib.sha256(source.encode('utf8')).hexdigest()
+        archive = cpk.create(cpk.CpkPreset.FILENAME_ID)
+        archive.add_bytes(('210001^' + source + '^ZH^KO^FR^DE^ES^TH^ID\\n').encode('utf8'),
+                          '123_event_text_sg.txt', id=7)
+        with patch.object(content, '_DIALOGUE_SPANISH', {
+                key: {'source': source, 'spanish': spanish}}):
+            changed = content.apply_spanish_dialogue(archive, {'123_event_text_sg.txt': 0})
+        self.assertEqual(changed, 1)
+        self.assertEqual(content.localized_rows(archive.file_bytes(0))['210001'],
+                         [spanish, 'ZH', 'KO', 'FR', 'DE', 'ES', 'TH', 'ID'])
+
+    def test_spanish_dialogue_rejects_changed_game_commands(self):
+        source = '<name=300001><br>Hello!<keywait>'
+        spanish = '¡Hola!'
+        key = hashlib.sha256(source.encode('utf8')).hexdigest()
+        archive = cpk.create(cpk.CpkPreset.FILENAME_ID)
+        archive.add_bytes(('210001^' + source + '^^^^^^^\\n').encode('utf8'),
+                          '123_event_text_sg.txt', id=7)
+        with patch.object(content, '_DIALOGUE_SPANISH', {
+                key: {'source': source, 'spanish': spanish}}):
+            with self.assertRaises(ValueError):
+                content.apply_spanish_dialogue(archive, {'123_event_text_sg.txt': 0})
+
     def test_new_localized_member_preserves_original_native_ids(self):
         with tempfile.TemporaryDirectory(dir=ROOT / 'source/build', prefix='text-localization-') as tmp:
             archive = cpk.create(cpk.CpkPreset.FILENAME_ID)
