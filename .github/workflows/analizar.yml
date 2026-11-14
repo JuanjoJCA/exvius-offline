@@ -1,0 +1,81 @@
+name: Analizar APK
+
+on:
+  push:
+    branches: [traduccion-es]
+    paths-ignore:
+      - "docs/INFORME.md"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: analizar-apk-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  analizar:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+        with:
+          ref: traduccion-es
+
+      - name: Instalar herramientas
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y apktool file unzip python3
+
+      - name: Localizar APK sin modificarla
+        id: apk
+        shell: bash
+        run: |
+          APK="$(find release -maxdepth 1 -type f -name '*.apk' | sort | tail -n 1)"
+          if [ -z "$APK" ]; then
+            echo "No hay APK versionada en release/. Se aborta sin descargar ni sustituir otra APK."
+            exit 1
+          fi
+          echo "path=$APK" >> "$GITHUB_OUTPUT"
+          echo "APK seleccionada: $APK"
+          sha256sum "$APK"
+
+      - name: Decodificar con apktool
+        id: decode
+        continue-on-error: true
+        run: |
+          apktool d -f "${{ steps.apk.outputs.path }}" -o work/apktool-decoded
+
+      - name: Generar informe
+        if: always()
+        run: |
+          STATUS="${{ steps.decode.outcome }}"
+          python3 tools/analyze_apk.py \
+            --apk "${{ steps.apk.outputs.path }}" \
+            --decoded work/apktool-decoded \
+            --apktool-status "$STATUS" \
+            --output docs/INFORME.md
+
+      - name: Publicar informe en la rama de traducción
+        if: always() && hashFiles('docs/INFORME.md') != ''
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/INFORME.md
+          if ! git diff --cached --quiet; then
+            git commit -m "docs: generar informe de análisis del APK"
+            git push origin HEAD:traduccion-es
+          fi
+
+      - name: Guardar informe y salida de apktool
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: informe-analisis-apk
+          path: |
+            docs/INFORME.md
+            work/apktool-decoded/
+          if-no-files-found: warn
+          retention-days: 14
