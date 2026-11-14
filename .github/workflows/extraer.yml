@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   extraer:
@@ -43,10 +43,3 @@ jobs:
             strings/en.json
             strings/es.json
           retention-days: 30
-      - name: Incorporar archivos de cadenas
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add strings/en.json strings/es.json
-          git commit -m "feat: incorporar inventario inicial de cadenas"
-          git push origin HEAD:traduccion-es
