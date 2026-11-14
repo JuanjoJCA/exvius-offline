@@ -143,6 +143,50 @@
     "416495617eecb2ba5ab9ea3cd79cbaa0dc3f91ed5a158946bdb356697b830689": {
       "source": "<name=100001><br>Probably. <wait=45><br>However, <wait=15>it seems to be different<br> from the Ramuh we know.<wait=120>",
       "spanish": "<name=100001><br>Eso parece. <wait=45><br>Pero <wait=15>no parece ser el mismo Ramuh<br>que conocemos.<wait=120>"
+    },
+    "5db0b6b36f29bf8b8a2ed37f01bfbd283f8869c92cd5ec5feef2b37415a45a4e": {
+      "source": "Dark Ifrit",
+      "spanish": "Ifrit oscuro"
+    },
+    "c5d5c6ff589ff519e79146c5722629e624742eedcbd3fdb64832738c8fa289a9": {
+      "source": "<invalid_touchwait><br><name=100002><br>What!?<wait=90>",
+      "spanish": "<invalid_touchwait><br><name=100002><br>¡¿Qué?!<wait=90>"
+    },
+    "93789c8f1129aca66f9ca502cac8b359569f0f7448c43d61aeabc758df2e11b2": {
+      "source": "<invalid_touchwait><br><name=100001><br>Damn!<br>There's no need to ask questions...!<wait=105>",
+      "spanish": "<invalid_touchwait><br><name=100001><br>¡Maldita sea!<br>¡No hay tiempo para preguntas...!<wait=105>"
+    },
+    "ed5fa005b3b2e73dbd68a4ab43ea7ed529cccca27866c2f5b31eb8e5d9c7a7d8": {
+      "source": "<invalid_touchwait><br><name=100000><br>It doesn't look like you're in the mood to talk!<wait=30><br>Everyone, stay alert!<wait=120>",
+      "spanish": "<invalid_touchwait><br><name=100000><br>¡No parece que tengas ganas de hablar!<wait=30><br>¡Todos, manteneos alerta!<wait=120>"
+    },
+    "8923be643fa8d64f56239370396a012b0fff16fb978d270adc64ad13b0ade1f7": {
+      "source": "<name=300003><br><br>I am born from the black crystal. <wait=120><page><br>My thunder is imbued with that dark power...<br>Taste it for yourself!<wait=120>",
+      "spanish": "<name=300003><br><br>He nacido del cristal negro. <wait=120><page><br>Mi rayo está imbuido de ese poder oscuro...<br>¡Probadlo en vuestras propias carnes!<wait=120>"
+    },
+    "893366d3afca4bc322b2e90a440068ca19c1a262dcc909b9917c9863a81801ea": {
+      "source": "<name=100002><br>Are there still other enemies like Ramuh of Darkness<br>?<wait=120>",
+      "spanish": "<name=100002><br>¿Habrá más enemigos como Ramuh oscuro<br>?<wait=120>"
+    },
+    "0d84f2463482f80a8c40123a1dbb5785d6dce3c21c2462dbe68fe84c0644d386": {
+      "source": "<name=100001><br>Ah.<br>The hole hasn't closed yet.<wait=120>",
+      "spanish": "<name=100001><br>Así es.<br>El agujero todavía no se ha cerrado.<wait=120>"
+    },
+    "a8f750366c8a47474086194c0c21312aca4878d8d0bc0f66df66a3638109f5d5": {
+      "source": "<name=100001><br>There may be <br>some in the form of other eidolons.<wait=120>",
+      "spanish": "<name=100001><br>Puede que haya otros<br>con la forma de distintos esperes.<wait=120>"
+    },
+    "db059241b70d74d1fa147aa00282224d9eb40c2517ff8a7d4d2e483598f9243d": {
+      "source": "<name=100000><br>If the enemy attacks<br>it may be about time.<wait=120>",
+      "spanish": "<name=100000><br>Si van a atacarnos,<br>no tardarán en aparecer.<wait=120>"
+    },
+    "07aab4c9f0916ae65bbd165696182c134751b51c8c4ca67d1100df8061c721a7": {
+      "source": "<name=100001><br>Looks like you're here right away.<wait=120>",
+      "spanish": "<name=100001><br>Vaya, parece que ya están aquí.<wait=120>"
+    },
+    "0734c20b6e86ae0af8669ab00bda717c4b4649205983e4e4473e65405633561c": {
+      "source": "<name=100000><br>Everyone! Let's attack!<wait=120>",
+      "spanish": "<name=100000><br>¡Todos! ¡A por ellos!<wait=120>"
     }
   }
 }
