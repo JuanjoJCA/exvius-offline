@@ -15,7 +15,7 @@
 
 ## Siguientes fases
 
-- Ampliar el catálogo de diálogos por escenas y revisar nombres de personajes y terminología.
+- Siguiente bloque de diálogos identificado en el catálogo fuente: escenas 700010401–700010408 (evento del 4.º aniversario), 143 cadenas en total. Traducir por subescenas y validar cada lote; después continuar con el resto de escenas y recursos pendientes.
 - Traducir habilidades, interfaz, misiones, objetos y textos de sistema mediante sus fuentes correspondientes.
 - Integrar el catálogo en la generación de paquetes de datos y comprobarlo con el cliente objetivo.
 - Resolver y verificar la cadena de construcción APK para la versión exacta que se vaya a distribuir.
