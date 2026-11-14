@@ -1,0 +1,41 @@
+name: Validar localización española
+
+on:
+  push:
+    branches: [traduccion-es]
+    paths:
+      - "source/exvius/fill_content_from_memorial.py"
+      - "source/server/content/dialogue_es.json"
+      - "tools/test_spanish_localizer.py"
+      - ".github/workflows/validar-espanol.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: traduccion-es
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Comprobar sintaxis
+        run: python -m py_compile source/exvius/fill_content_from_memorial.py tools/test_spanish_localizer.py
+      - name: Validar catálogo
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path("source/server/content/dialogue_es.json")
+          data = json.loads(p.read_text(encoding="utf-8"))
+          assert data["schema"] == 1
+          assert data["language"] == "es-ES"
+          assert isinstance(data["translations"], dict)
+          print("Catálogo español válido:", len(data["translations"]), "traducciones revisadas")
+          PY
+      - name: Pruebas del inyector
+        run: python tools/test_spanish_localizer.py
