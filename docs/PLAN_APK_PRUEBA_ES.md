@@ -17,7 +17,7 @@ Generar una APK Android de prueba instalable en paralelo a la aplicación origin
 
 ## Bloqueos previos a la compilación
 
-El repositorio no contiene `repository snapshots/FFBE-Global-v9.0.0-original.apk` ni `tools/vendor/`. Tampoco debe subirse al repositorio el APK original, las herramientas de terceros empaquetadas, el almacén de claves ni contraseñas. Por tanto, el código permite definir el proceso, pero no se puede afirmar que la APK esté compilada hasta disponer de esos componentes localmente y ejecutar todas las verificaciones.
+El repositorio sí contiene APKs anteriores del producto Exvius Offline en `release/` y publica actualmente la versión v0.1.31 (build 9072), pero ese binario ya es una aplicación modificada y no sustituye al APK Global v9.0.0 original que exige `android_build.py`. No están versionados `repository snapshots/FFBE-Global-v9.0.0-original.apk` ni `tools/vendor/`. Tampoco debe subirse al repositorio el APK original, las herramientas de terceros empaquetadas, el almacén de claves ni contraseñas. La APK v0.1.31 publicada no contiene esta nueva integración española y no debe presentarse como APK traducida. Por tanto, no se puede afirmar que la APK española esté compilada hasta disponer del cliente original exacto y las dependencias locales, y ejecutar todas las verificaciones.
 
 ## Secuencia de construcción
 
