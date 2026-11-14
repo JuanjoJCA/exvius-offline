@@ -9,8 +9,8 @@
 - Se ha añadido un inyector seguro que coloca el texto español revisado en la primera columna que el cliente realmente lee, preservando las otras siete columnas y los comandos del juego.
 - Catálogo inicial: 35 diálogos del prólogo y la primera aparición de Ifrit, con fuentes inglesas verificadas contra el catálogo de recuperación existente.
 - Validación automática: sintaxis, estructura del catálogo, hashes de origen, etiquetas de control y conservación de columnas. La ejecución [43624975703](https://github.com/JuanjoJCA/exvius-offline/actions/runs/43624975703) terminó correctamente.
-- Cobertura actual: 46 entradas revisadas; incluye el prólogo, la primera aparición de Ifrit y la escena de Ramuh oscuro (700010304). No se declara una traducción completa ni un porcentaje global.
-- Se amplía el catálogo a 46 entradas: se completa la escena 700010304 (aparición y combate contra Ramuh oscuro), con 11 nuevas cadenas revisadas y sus comandos conservados.
+- Cobertura actual: 53 entradas revisadas; incluye el prólogo, la primera aparición de Ifrit y el arco de Ramuh oscuro (escenas 700010304–700010306). No se declara una traducción completa ni un porcentaje global.
+- Últimos lotes: 11 cadenas para completar la escena 700010304 y 7 para las escenas 700010305–700010306, con sus comandos conservados.
 - El inventario del APK comunitario cubre JSON; quedan por clasificar y revisar otros formatos y recursos.
 
 ## Siguientes fases
