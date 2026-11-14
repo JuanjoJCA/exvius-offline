@@ -2,6 +2,63 @@
   "schema": 1,
   "language": "es-ES",
   "source_language": "en",
-  "description": "Traducciones españolas revisadas. Las claves son SHA-256 exactos del texto inglés, incluidos los comandos de juego.",
-  "translations": {}
+  "description": "Traducciones españolas revisadas del prólogo. Las claves son SHA-256 exactos del texto inglés, incluidos los comandos.",
+  "translations": {
+    "8b0c26fb43850eb6877ed9f4d2d34c74efbcbcdaa59195d70018af3437b2b7f9": {
+      "source": "<name=300001><br>Was there a crystal<br>over there, kupo?<wait=120><br>",
+      "spanish": "<name=300001><br>¿Había un cristal<br>por allí, kupó?<wait=120><br>"
+    },
+    "b5e0b6847b28bd83bafe7d8a80a2b0d03cf2649afae80e89b5f9ede41f7aadd2": {
+      "source": "<name=300001><br>Mog doesn't know, kupo.<wait=120>",
+      "spanish": "<name=300001><br>Mog no lo sabe, kupó.<wait=120>"
+    },
+    "9d565310a50dfe821aaafdce434c5d597972a082626453c8419834c9c9066a40": {
+      "source": "<name=300001><br><speed=3>I’ve got a bad feeling about this, kupo...<wait=120>",
+      "spanish": "<name=300001><br><speed=3>Esto no me da buena espina, kupó...<wait=120>"
+    },
+    "9de1de9bd5c7118977c01a61ec4478f7f941716ffe25e34f5ba78e1fb9007cff": {
+      "source": "<name=300001><br>Should we take a look, kupo?<wait=120>",
+      "spanish": "<name=300001><br>¿Echamos un vistazo, kupó?<wait=120>"
+    },
+    "40b8b09f49fac9ce7f675e34b86ab4bdd565549e7e224358480adeb25484ac98": {
+      "source": "<name=300001><br><speed=3>It’s scary, kupo...<wait=120>",
+      "spanish": "<name=300001><br><speed=3>Qué miedo, kupó...<wait=120>"
+    },
+    "6c67043f10ebb8b3155a082660a797c579b5860b02c2725566a2ed9199fa2a04": {
+      "source": "<name=300002><br><speed=4>Kupo, !?<wait=120>",
+      "spanish": "<name=300002><br><speed=4>¡¿Kupó?!<wait=120>"
+    },
+    "c3ab43a957142c7c1bd9f502990e03ad41658d99a7532d18874a8e22fa871118": {
+      "source": "<name=100000><br><speed=3>Is this...<wait=40>the Otherworld... or somewhere else?<wait=120>",
+      "spanish": "<name=100000><br><speed=3>¿Este lugar es...<wait=40>¿el otro mundo... o algún sitio distinto?<wait=120>"
+    },
+    "ea5dc7e6a5f34d99e0ddc5767243f902357bc93e1a3006f0f77ce7fdb328d977": {
+      "source": "<name=100000><br><speed=3>How did I end up here?<wait=120>",
+      "spanish": "<name=100000><br><speed=3>¿Cómo he acabado aquí?<wait=120>"
+    },
+    "9994954e05933ff82ffc777ef2913197ebe4e0b92285bdcd075691859fb2927d": {
+      "source": "<name=100000><br><speed=3>Did someone summon me?<wait=40><br>Does that mean...<wait=20>this body... is a vision?<wait=140><br>",
+      "spanish": "<name=100000><br><speed=3>¿Alguien me ha invocado?<wait=40><br>¿Eso significa que...<wait=20>este cuerpo... es una visión?<wait=140><br>"
+    },
+    "cf66c27d14f4a55eca30c260feaec843b82c1a341f96c266d87893b38e0d03c6": {
+      "source": "<name=100001><br>W-wait...<wait=20>Rain!?<wait=40><br>And Fina, too!?<wait=40><br>What on earth is going on here?<wait=160><br>",
+      "spanish": "<name=100001><br>¿P-pero qué...?<wait=20>¡¿Rain?!<wait=40><br>¡¿Y Fina también?!<wait=40><br>¿¡Qué demonios está pasando aquí!?<wait=160><br>"
+    },
+    "625ffc1429403700639409eb60680d8b8d458d30a554944dc8526ef74998163c": {
+      "source": "<name=100002><br><speed=3>I...<wait=20>I was just on the<br>Phantom Train a moment ago...<wait=140><br>",
+      "spanish": "<name=100002><br><speed=3>Yo...<wait=20>Hace un momento estaba en el<br>Tren Fantasma...<wait=140><br>"
+    },
+    "20fa8f8856be72ef2cec33acb268137eeac7dfa5a0402fcd502bf5a60934149b": {
+      "source": "<name=100001><br>Phantom Train?<wait=40><br>What’s that?<wait=40><br>...And that outfit of yours is a bit curious, too.<wait=140><br>",
+      "spanish": "<name=100001><br>¿Tren Fantasma?<wait=40><br>¿Qué es eso?<wait=40><br>...Y ese atuendo tuyo también es bastante peculiar.<wait=140><br>"
+    },
+    "8eb083cfe117784ba3981fd57173d949a85308e37229da59d3d098dc65bccd30": {
+      "source": "<name=100002><br>Oh, <wait=20>um...<wait=20>never mind that!<wait=40><br>As for this outfit, well...<wait=20><speed=4>uh...<wait=120><br>",
+      "spanish": "<name=100002><br>Ah, <wait=20>esto...<wait=20>¡No importa!<wait=40><br>Y sobre este atuendo...<wait=20><speed=4>eeeh...<wait=120><br>"
+    },
+    "9200ff2e91764a212cb3cf9794171d6c6e21b83b7b29197a21233ce8c1404df0": {
+      "source": "<name=100002><br>(O-oh, <wait=20>what should I do?<wait=40><br>　I don’t want to worry them<br>　unnecessarily...)<wait=160><br>",
+      "spanish": "<name=100002><br>(¿Y-y ahora qué hago?<wait=40><br>　No quiero preocuparlos<br>　sin necesidad...)<wait=160><br>"
+    }
+  }
 }
