@@ -459,6 +459,162 @@
     "98bec4599d72c425082ff49c21435e802da117a757406dfd2ffd08e4910feb68": {
       "source": "<name=300001><br><speed=3>Son of man!<wait=40><br>Even more cruel<br>Taste my dark flames!<wait=120>",
       "spanish": "<name=300001><br><speed=3>¡Hijo del hombre!<wait=40><br>¡Probad unas llamas oscuras<br>aún más crueles!<wait=120>"
+    },
+    "6ecd278a7e48e9e21eb682a8da9fed8b2ee6a83120f1de386037883246ccf2e3": {
+      "source": "<name=100000><br>Damn, <wait=20>We're going to lose!<wait=40><br>Everyone, let's go!<wait=120><br>",
+      "spanish": "<name=100000><br>¡Maldición, <wait=20>no pienso perder!<wait=40><br>¡Todos, vamos!<wait=120><br>"
+    },
+    "6343838453ec19c90a5d83878deb84fab0fcab90ccc4bea7722b30a361eb06f5": {
+      "source": "<name=300001><br><speed=3>Hehe, <wait=20>Now that I have revealed my true power,<wait=20><br>even the followers of darkness are excited.<wait=120><br>",
+      "spanish": "<name=300001><br><speed=3>Je, je... <wait=20>Ahora que he revelado mi verdadero poder,<wait=20><br>hasta los siervos de la oscuridad se han enardecido.<wait=120><br>"
+    },
+    "418719202e1da794b59bc3947d4d64951d32fb2e4b2434f373c0e4583922de7f": {
+      "source": "<name=300001><br><speed=3>I'll let you all deal with <wait=20>these<br> guys first.<wait=120><br>",
+      "spanish": "<name=300001><br><speed=3>Primero os las veréis con <wait=20>estos<br>individuos.<wait=120><br>"
+    },
+    "3832bae91f0ef4d0edadd674f80560ef8bda3763ffb65075ccdf00fd2cef5764": {
+      "source": "<name=100000><br>The first thing to do is to defeat these monsters.<wait=40><br>Can you both <wait=20> still fight?<wait=100><br>",
+      "spanish": "<name=100000><br>Lo primero es derrotar a estos monstruos.<wait=40><br>¿Podéis los dos <wait=20>seguir luchando?<wait=100><br>"
+    },
+    "86176890cd325a83d9c11efd1e0731c1cec8e703662a4dafe5b2538285edd202": {
+      "source": "<name=100001><br>Of course.<wait=40><br>We can't afford to lose here.<wait=110>",
+      "spanish": "<name=100001><br>Por supuesto.<wait=40><br>No podemos permitirnos perder aquí.<wait=110>"
+    },
+    "3a765423a172d8a504fecf1dc82c063ae76de85b3f0f8f3d29d1b0ad7368bb9d": {
+      "source": "<name=100002><br>We must quickly defeat the Dark Dragon King and restore peace to the <wait=20><br>world!<wait=110><br>",
+      "spanish": "<name=100002><br>¡Tenemos que derrotar cuanto antes al Rey Dragón Oscuro y devolver la paz al <wait=20><br>otro mundo!<wait=110><br>"
+    },
+    "0cd15bd642179516c1706aa9bf24d6fc6cdd5bdcafc8637019a3364db4eec076": {
+      "source": "<name=100000><br><speed=3>This is the final battle.<wait=40><br>Everyone, let's go!<wait=120><br>",
+      "spanish": "<name=100000><br><speed=3>Esta es la batalla final.<wait=40><br>¡Todos, vamos allá!<wait=120><br>"
+    },
+    "d46f9af2d5473a7de4588d12c8f4b1be8ceafcdbb2c76e38b5638eafecdd7aef": {
+      "source": "<name=300001><br><speed=3>Come, <wait=20> children of men. <wait=40><br>Now let the battle begin. <wait=120>",
+      "spanish": "<name=300001><br><speed=3>Así que habéis venido, <wait=20> hijos del hombre. <wait=40><br>¡Que comience el combate! <wait=120>"
+    },
+    "a7115c32f6768bb18f92b429711db5914aeac66d82df6f265b4796f8e3a13917": {
+      "source": "<name=300001><br><speed=3>Taste my dark flames,<wait=40><br>!<wait=120><br>",
+      "spanish": "<name=300001><br><speed=3>¡Probad mis llamas oscuras,<wait=40><br>!<wait=120><br>"
+    },
+    "6b5b46fe8da430274097f0e825d498e222118f4cdb0f423078d4aa7cccc60a3d": {
+      "source": "<name=100000><br>Wow, <wait=20>what a mighty power...!<wait=120>",
+      "spanish": "<name=100000><br>¡Vaya, <wait=20>qué poder tan descomunal...!<wait=120>"
+    },
+    "47f2f4fc64728b2591dce15f7a1edb0cfd4d1d43a395a80d6078c58ae70bafb0": {
+      "source": "<name=100001><br>Can we <br>stand alone...!<wait=120>",
+      "spanish": "<name=100001><br>¿Podremos <br>hacerle frente nosotros solos...?<wait=120>"
+    },
+    "3a6dc4afa10584a9c90307da8f379b44940a8822b360d408fc8fc0964d0bc0ae": {
+      "source": "<name=100002><br>Everyone!<wait=40><br>You came to help us!<wait=120>",
+      "spanish": "<name=100002><br>¡Todos!<wait=40><br>¡Habéis venido a ayudarnos!<wait=120>"
+    },
+    "c2d1a1f2add77567de3068c2e40dcccf1f56963d68d45cb13433e0faaa32499c": {
+      "source": "<name=100001><br>There is no more reassuring reinforcement!<wait=100>",
+      "spanish": "<name=100001><br>¡No podríamos tener unos refuerzos mejores!<wait=100>"
+    },
+    "d9992d486bb3b1714539ee806257e092d094da99dc055102ed71a287d6620794": {
+      "source": "<name=300001><br><speed=3>The light in your hearts has <wait=20>attracted<br> even more light.<wait=110><br>",
+      "spanish": "<name=300001><br><speed=3>La luz de vuestros corazones ha <wait=20>atraído<br>aún más luz.<wait=110><br>"
+    },
+    "0281603ffb474c682d92cba7a7bc191850cd9da49a3967fd4bfbcc431a1471d9": {
+      "source": "<name=300001><br><speed=3>Alright, <wait=20>Gather the power of <br>light created by the human heart and<wait=20><br>challenge me once more!<wait=120><br>",
+      "spanish": "<name=300001><br><speed=3>Muy bien, <wait=20>reunid el poder de la<br>luz que nace del corazón humano y<wait=20><br>¡enfrentaos a mí una vez más!<wait=120><br>"
+    },
+    "187855fa8b4fe0f23733169368326fbb19b61d01beeed67243135367542f52c2": {
+      "source": "<name=100000><br>Everyone, <wait=20>work together to<br>defeat the Dark Dragon King!<wait=110><br>",
+      "spanish": "<name=100000><br>¡Todos, <wait=20>unamos nuestras fuerzas para<br>derrotar al Rey Dragón Oscuro!<wait=110><br>"
+    },
+    "a874ec70474ea90081bd4b0727a4a2d54a75905886d1e0393e4b9f104e4a5e51": {
+      "source": "<name=300001><br><speed=3>We are the collection of your human<br>negative emotions<wait=20><br>Existences born from crystals.<wait=120>",
+      "spanish": "<name=300001><br><speed=3>Somos seres nacidos de cristales<br>que concentran las emociones negativas<wait=20><br>de los seres humanos.<wait=120>"
+    },
+    "cd50f140b0bc5ff8b03f8eb161a714b8cba645f007032ee55ef7b5ca881d32cb": {
+      "source": "<name=300001><br><speed=3>Even if I fall here, <wait=20><br>I will never disappear from this world.<wait=120><br>",
+      "spanish": "<name=300001><br><speed=3>Aunque caiga aquí, <wait=20><br>jamás desapareceré de este mundo.<wait=120><br>"
+    },
+    "4ff4b229cc349c86bcac368805af1c884a7eef71d9b7bbc06f5a05c8f758c5ef": {
+      "source": "<name=300001><br><speed=3>One day, when the world is filled with negative emotions,<wait=20><br>we will reappear and<br>destroy everything.<wait=120><br>",
+      "spanish": "<name=300001><br><speed=3>Algún día, cuando el mundo se llene de emociones negativas,<wait=20><br>volveremos a aparecer y<br>lo destruiremos todo.<wait=120><br>"
+    },
+    "96a21dc49ae7d39b09e4da74303aac9d82d1c4a10150513c4f7f2dbda3088143": {
+      "source": "<name=100000><br>In that case, <wait=20><br>we will do something again.<wait=110><br>",
+      "spanish": "<name=100000><br>Y si eso ocurre, <wait=20><br>volveremos a hacerle frente.<wait=110><br>"
+    },
+    "fd47079197847be01f93008cb7e87d446c3d145154a4e7f8ae7e14794d230bdc": {
+      "source": "<name=100000><br>Even if we are gone,<wait=20><br>someone will carry on our will<br>and do something.<wait=120><br>",
+      "spanish": "<name=100000><br>Aunque nosotros ya no estemos,<wait=20><br>alguien heredará nuestra voluntad<br>y encontrará la manera de actuar.<wait=120><br>"
+    },
+    "5987d23a5724a0441332a7417c3f77b22b562fcebe7e0d79f42009ff1ad9aa31": {
+      "source": "<name=300001><br><speed=3>...Okay.<wait=100>",
+      "spanish": "<name=300001><br><speed=3>...Está bien.<wait=100>"
+    },
+    "8b728e15d8fe1dc705fb7ccd7f04bf90d100f519cb3a5e31342ec0aea8fbc98e": {
+      "source": "<name=300001><br><speed=3>If you humans can maintain positive power,<wait=20><br>you guys will win.<wait=120><br>",
+      "spanish": "<name=300001><br><speed=3>Si los humanos sois capaces de mantener esa energía positiva,<wait=20><br>vosotros venceréis.<wait=120><br>"
+    },
+    "46b3ea0f929cc0debf215eab16d16dbeccd04937d057e08d93636cc32c7cf2b8": {
+      "source": "<name=300001><br><speed=3>But when <wait=20>we are consumed by negative forces<br>we win.<wait=110><br>",
+      "spanish": "<name=300001><br><speed=3>Pero cuando <wait=20>os consuman las fuerzas negativas,<br>la victoria será nuestra.<wait=110><br>"
+    },
+    "9739c718f3e54b1a0dcd5f24dd91a39dea79a4b4506542c7aa543234e81a9f1c": {
+      "source": "<name=100002><br>Ah! <wait=40> Everyone!<wait=100>",
+      "spanish": "<name=100002><br>¡Ah! <wait=40>¡Todos!<wait=100>"
+    },
+    "4ade0f1fe8f0befe5a4fa19e323bcd9a276b5827d2999de3d3c057ab52054e31": {
+      "source": "<name=100001><br><br>He must have <wait=20><br> gone home after completing his  role as Vision.<wait=120><br>",
+      "spanish": "<name=100001><br><br>Debe de haber <wait=20><br> regresado a casa tras cumplir su cometido como Visión.<wait=120><br>"
+    },
+    "77c7d52cb318040f75f524c747ebe16b49f73f430dd156bf17a2639631b853ed": {
+      "source": "<name=100001><br>We too must <wait=20> say goodbye.<wait=100>",
+      "spanish": "<name=100001><br>Nosotros también debemos <wait=20> despedirnos.<wait=100>"
+    },
+    "0c03b6a3e575e8a7b21a710862a16dfa6da20bee69b5b33e954850fb4724b4c4": {
+      "source": "<name=100000><br>It was a short time, but<wait=20><br>We were able to go on an adventure together like this.<br>It was really good.<wait=120><br>",
+      "spanish": "<name=100000><br>Ha sido poco tiempo, pero<wait=20><br>me alegro mucho de haber podido vivir<br>esta aventura con vosotros.<wait=120><br>"
+    },
+    "e76c1b2af12aa789dfcebeae19b38888df15201d0ca4dd54abb150dd074b9938": {
+      "source": "<name=100002><br>We'll meet again.<wait=40><br>No matter how far apart we are.<wait=110><br>",
+      "spanish": "<name=100002><br>Volveremos a vernos.<wait=40><br>Por muy lejos que estemos unos de otros.<wait=110><br>"
+    },
+    "a4437e0833516d4cbec4e6ffdf2754b579f69bf33df4b057bd83ba6b0a18e451": {
+      "source": "<name=100001><br>Of course. <wait=40><br>I look forward to the day<br> when I can see your faces.<wait=120><br>",
+      "spanish": "<name=100001><br>Por supuesto. <wait=40><br>Espero con ilusión el día<br>en que vuelva a veros.<wait=120><br>"
+    },
+    "c9b3cc74a252c8d80edbfab4b7d162fba16936bf105ee10831af7fc4d6d0f446": {
+      "source": "<name=100002><br>See you, Rain!<wait=20> Lasswell!<wait=100>",
+      "spanish": "<name=100002><br>¡Hasta pronto, Rain!<wait=20> ¡Lasswell!<wait=100>"
+    },
+    "aa91dae0d56cf231ad5681aa3aa95dc45cf6727f6fc63875d9191c1eda4345bc": {
+      "source": "<name=100000><br><br>(It was an enemy that made me think...)<wait=110><br>",
+      "spanish": "<name=100000><br><br>(Este enemigo me ha hecho reflexionar...)<wait=110><br>"
+    },
+    "370306937346e1fc6a6d23c42ea710bd58defca91b38042ddddc63d80a799e12": {
+      "source": "<name=100000><br><speed=3> (When a person's world is filled with negative emotions, <wait=20><br> reappears, <wait=20> or...) <wait=110><br>",
+      "spanish": "<name=100000><br><speed=3> (Cuando el mundo humano se llene de emociones negativas, <wait=20><br> volverán a aparecer, <wait=20>¿eh...?) <wait=110><br>"
+    },
+    "5dbcd70ab29faa5246201c7b9d9a8d343c55302ec0a5749799d6e8a2e702c212": {
+      "source": "<name=100000><br>(I also have to <wait=20> do what I can)<wait=100>",
+      "spanish": "<name=100000><br>(Yo también tengo que <wait=20> hacer todo lo que pueda.)<wait=100>"
+    },
+    "713057a2375751b15606142b8a2e730fbd4eb82881dc9c42800e5d38e4fbbdda": {
+      "source": "<name=100000><br><br>(I can't let the world be filled with negative emotions. <wait=40><br>Absolutely──)<wait=120><br>",
+      "spanish": "<name=100000><br><br>(No puedo permitir que el mundo se llene de emociones negativas. <wait=40><br>¡Jamás──!)<wait=120><br>"
+    },
+    "50f9f861f7bb3e5689db41c3de292a60dabf9836fea0b99c27bf74eb528ba460": {
+      "source": "<name=100002><br>Yeah!<wait=100>",
+      "spanish": "<name=100002><br>¡Sí!<wait=100>"
+    },
+    "e61171c9cb8a0bb6f923d0eb500faaa608b39ca0608fcb0be96623c48e980c5c": {
+      "source": "<name=300001><br><speed=4>At best, we have to make an<wait=20> effort to prevent<br> the world from being covered in darkness.<wait=110><br>",
+      "spanish": "<name=300001><br><speed=4>Como mínimo, debéis esforzaros<wait=20> por impedir<br> que el mundo quede cubierto por la oscuridad.<wait=110><br>"
+    },
+    "c4f40c3a2bacd4592658508cf9dccb211bced17173b24524aa6e24bb222001e2": {
+      "source": "<name=100001><br>...you did it.<wait=40>Rain.<wait=100>",
+      "spanish": "<name=100001><br>...Lo has conseguido.<wait=40>Rain.<wait=100>"
+    },
+    "f8f0e713ebad48893bbcc458ebb787a34787a8326cb92debc82110cf1888e20e": {
+      "source": "<name=100000><br>Thank you, Lasswell, <wait=20>Fina.<wait=40><br>And everyone.<wait=120><br>",
+      "spanish": "<name=100000><br>Gracias, Lasswell, <wait=20>Fina.<wait=40><br>Y a todos vosotros.<wait=120><br>"
     }
   }
 }
