@@ -9,3 +9,13 @@
 - No se presume que el juego use Unity. El análisis comprueba firmas conocidas de Unity y formatos legibles/comprimidos; los formatos CPK/MST documentados en el código se investigarán por separado.
 - La descarga y extracción de los 17,8 GB de datos queda fuera del primer análisis. Se estudiarán después los paquetes selectivamente y se validarán sus SHA-256 antes de extraerlos.
 - La firma de una APK modificada requiere una clave propia. No se genera ni se sube ninguna clave privada al repositorio durante la Fase 1.
+
+
+## 2026-11-14 — Estrategia de idioma y primer inyector español
+
+- El contrato del cliente v9.0.0 documenta que solicita `LANGUAGE_ENGLISH`; las tablas CPK `_sg.txt` conservan ocho columnas EN/ZH/KO/FR/DE/ES/TH/ID.
+- Para que el cliente existente muestre español sin cambiar su selector interno, el inyector sustituye únicamente la primera celda (EN) por una traducción española revisada. No se escribe en la columna ES, que el cliente no está solicitando.
+- Se añade `source/server/content/dialogue_es.json`, indexado por SHA-256 del texto inglés exacto. El inyector verifica origen, etiquetas de control y separadores antes de escribir.
+- Se añaden pruebas independientes de las dependencias nativas y un workflow de GitHub Actions. El workflow ha validado correctamente el catálogo inicial.
+- El primer lote contiene 14 diálogos del prólogo. Es una prueba de integración, no una cobertura funcional amplia.
+- La compilación final sigue bloqueada hasta resolver la discrepancia entre el APK comunitario analizado (v0.1.25) y los requisitos de compilación documentados para el cliente Global original v9.0.0, así como las herramientas externas y la clave de firma local.
