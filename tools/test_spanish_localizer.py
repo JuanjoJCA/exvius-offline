@@ -23,6 +23,24 @@ class MemoryArchive:
 
 
 class SpanishDialogueTests(unittest.TestCase):
+    def test_catalogue_hashes_sources_and_commands_are_valid(self):
+        import json
+        import re
+        catalogue = json.loads(
+            (ROOT / "source/server/content/dialogue_es.json").read_text(encoding="utf-8")
+        )
+        english = json.loads(
+            (ROOT / "source/server/content/dialogue_en.json").read_text(encoding="utf-8")
+        )
+        accepted = {row["english"] for row in english["translations"].values()}
+        for key, row in catalogue["translations"].items():
+            source = row["source"]
+            spanish = row["spanish"]
+            self.assertEqual(hashlib.sha256(source.encode("utf-8")).hexdigest(), key)
+            self.assertIn(source, accepted)
+            self.assertEqual(re.findall(r"<[^>]+>", source), re.findall(r"<[^>]+>", spanish))
+            self.assertFalse(any(ch in spanish for ch in ("^", "\\n", "\\r")))
+
     def test_spanish_replaces_only_first_language_cell(self):
         source = "<name=300001><br>Hello, warrior!<wait=30><br>"
         spanish = "<name=300001><br>¡Hola, guerrero!<wait=30><br>"
