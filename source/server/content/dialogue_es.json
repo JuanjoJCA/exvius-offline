@@ -615,6 +615,58 @@
     "f8f0e713ebad48893bbcc458ebb787a34787a8326cb92debc82110cf1888e20e": {
       "source": "<name=100000><br>Thank you, Lasswell, <wait=20>Fina.<wait=40><br>And everyone.<wait=120><br>",
       "spanish": "<name=100000><br>Gracias, Lasswell, <wait=20>Fina.<wait=40><br>Y a todos vosotros.<wait=120><br>"
+    },
+    "2fd478c88ca0e81b2d75642c55fc2ac47eef23f24ee2f6d89d1c1af8c5ca4c43": {
+      "source": "Thief",
+      "spanish": "Ladrón"
+    },
+    "392ac6b88a6cc55b26a52319a2438de9f5584ef855bd9543048e5d073f397a84": {
+      "source": "Moogle",
+      "spanish": "Moguri"
+    },
+    "f339909cbb9bb65e00bc15e9a2bb46f14b1b5929c7d73fc7d23fc2b5365fbd1a": {
+      "source": "Moogles",
+      "spanish": "Moguris"
+    },
+    "9a3642fd7768f4ed820a332d34a9e5ec440fef2be563b2a308f2c6691d859583": {
+      "source": "<name=100000><br>Lasswell!<wait=40> Fina!<wait=120>",
+      "spanish": "<name=100000><br>¡Lasswell!<wait=40> ¡Fina!<wait=120>"
+    },
+    "0a9c12276e7ed299b3286a7be54b00da7c4788482fac2853d83bdb847d9bc16c": {
+      "source": "Robynson",
+      "spanish": "Robynson"
+    },
+    "662c67141c20e7f8730607d8a22aab33088f766c28101b554f1a177e22d45dc7": {
+      "source": "Danny",
+      "spanish": "Danny"
+    },
+    "7ae481a05712f9abcf69f6a809c0b9781a28a1ef403c21199a69c51059cda967": {
+      "source": "Luthor",
+      "spanish": "Luthor"
+    },
+    "6b36f3357f1b05d7e4754c4b868d73fa4a8269dc7eb2bf317bfb9b56b2df2c3c": {
+      "source": "Marvin",
+      "spanish": "Marvin"
+    },
+    "8df0f8135403ddc4aa69bf7aac89076ce928327dab3148396ccb320709470f41": {
+      "source": "Angelo",
+      "spanish": "Angelo"
+    },
+    "9ba581d48a05093458ed70b2fd7f2ea656886f89eb1b6663632bb27a9559fef6": {
+      "source": "Reks",
+      "spanish": "Reks"
+    },
+    "8e5a3143184d6912bdd19aa102c7c5e1674b5f74570c62fabb6de07427d70997": {
+      "source": "System Message",
+      "spanish": "Mensaje del sistema"
+    },
+    "d982616a95b0a9df00fdcf79f647d75d211e12697386662a1096ae24849f22c4": {
+      "source": "Notice 1",
+      "spanish": "Aviso 1"
+    },
+    "eff586cfd8b3fced9582bc86471f562fb681108fd44ffe44ec0c7a9aa2793f44": {
+      "source": "Dark Tetra Sylphid",
+      "spanish": "Tetra Sylphid oscuro"
     }
   }
 }
