@@ -46,7 +46,7 @@ Require-File 'tools/vendor/apktool_3.0.3.jar' 'apktool 3.0.3'
 Require-File 'tools/vendor/frida-gadget-17.24.3-android-arm64.so' 'Frida Gadget 17.24.3 arm64'
 Require-File 'tools/vendor/android-agent/node_modules/frida-compile/dist/cli.js' 'frida-compile'
 Require-Directory 'tools/vendor/python' 'dependencias Python del proyecto'
-Require-Directory 'tools/vendor/apktool-framework' 'caché de framework de apktool'
+New-Item -ItemType Directory -Path 'tools/vendor/apktool-framework' -Force | Out-Null
 Require-Directory 'data/memorial' 'datos originales Memorial'
 Require-Directory 'data/client/files' 'caché Global original'
 Require-Directory 'data/mst_decoded' 'tablas MST decodificadas'
