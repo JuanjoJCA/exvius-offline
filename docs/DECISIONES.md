@@ -29,3 +29,9 @@
 - Los registros se distribuyen por escena en 23, 12, 12, 17, 52, 5, 13 y 9 entradas. Incluyen tanto nombres de personajes como líneas de diálogo.
 - El campo `english` del catálogo se generó a partir de texto japonés preservado; por tanto, sirve como fuente de trabajo, pero no se debe presentar como transcripción oficial inglesa ni aceptar traducciones dudosas sin revisar el original y el contexto.
 - La traducción española se incorporará por subescenas, con hash SHA-256 del texto inglés exacto y comprobación de etiquetas de control. No se modificará el catálogo de recuperación original.
+
+
+### Control de calidad reforzado
+
+- Se han detectado errores semánticos claros en el campo inglés del catálogo de recuperación. Ejemplos comprobados contra el japonés original: `700010403:210031` traduce `せくしー` como “job” en vez de “sexiness”; `700010401:210014` traduce la expresión de mala suerte como “I didn't tweet”; `700010405:210095` cambia el referente a “He/him” aunque la frase se dirige a Charlotte.
+- Por ello, el inglés recuperado no se usará como única autoridad semántica. Antes de traducir cada escena se contrastarán las líneas dudosas con el japonés y el contexto de personajes. Si no se puede resolver con seguridad, se dejará pendiente en vez de perpetuar un error.
