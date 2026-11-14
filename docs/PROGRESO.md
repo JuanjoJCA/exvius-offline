@@ -7,9 +7,9 @@
 - El inventario completo se conserva como artefacto de GitHub Actions [43623959118](https://github.com/JuanjoJCA/exvius-offline/actions/runs/43623959118), no dentro de Git, porque el JSON generado supera el límite de 100 MB por archivo.
 - Se ha confirmado en el código y la documentación del cliente v9.0.0 que el cliente solicita el idioma `LANGUAGE_ENGLISH` y que las tablas localizadas CPK usan ocho columnas: EN, ZH, KO, FR, DE, ES, TH e ID.
 - Se ha añadido un inyector seguro que coloca el texto español revisado en la primera columna que el cliente realmente lee, preservando las otras siete columnas y los comandos del juego.
-- Catálogo inicial: 14 diálogos del prólogo, con fuentes inglesas verificadas contra el catálogo de recuperación existente.
+- Catálogo inicial: 35 diálogos del prólogo y la primera aparición de Ifrit, con fuentes inglesas verificadas contra el catálogo de recuperación existente.
 - Validación automática: sintaxis, estructura del catálogo, hashes de origen, etiquetas de control y conservación de columnas. La ejecución [43624975703](https://github.com/JuanjoJCA/exvius-offline/actions/runs/43624975703) terminó correctamente.
-- Cobertura actual: el catálogo español solo contiene esas 14 entradas. No se declara una traducción completa ni un porcentaje global.
+- Cobertura actual: el catálogo español solo contiene esas 35 entradas. No se declara una traducción completa ni un porcentaje global.
 - El inventario del APK comunitario cubre JSON; quedan por clasificar y revisar otros formatos y recursos.
 
 ## Siguientes fases
