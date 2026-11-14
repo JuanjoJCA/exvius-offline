@@ -331,6 +331,134 @@
     "8e0730f6bf939414151f12cabaf09407c44f09f96a0e6193be667c9fa0b0f31e": {
       "source": "<name=300013><br>The judge's sacred judgment<br>will burn you to ashes!<wait=120>",
       "spanish": "<name=300013><br>¡El juicio sagrado del juez<br>os reducirá a cenizas!<wait=120>"
+    },
+    "9f0a59e6d3f35aeba23edd86fc20fa42d6cd2adb4dea3500bc97a49e0d08eb8d": {
+      "source": "Rain & Lasswell",
+      "spanish": "Rain y Lasswell"
+    },
+    "e18d40e69a0e96d6d2c14bcb814d0abe6cdab83d96f9cb6c9a75d57c91f724bc": {
+      "source": "<name=100001><br>Rain.<wait=40><br>The strength I feel from these monsters is<br>uncommon.<wait=120>",
+      "spanish": "<name=100001><br>Rain.<wait=40><br>La fuerza que percibo en estos monstruos<br>no es nada corriente.<wait=120>"
+    },
+    "ac2dc61b2ef45b68f5eca7880d1463b4f02a3230f6222f509165a57df3a482c5": {
+      "source": "<name=100000><br>Lasswell.<wait=40><br>If you're scared, you can run away, okay?<wait=110>",
+      "spanish": "<name=100000><br>Lasswell.<wait=40><br>Si tienes miedo, todavía puedes salir corriendo, ¿sabes?<wait=110>"
+    },
+    "94608f4527f9c02121248fd048b9e6af1d06e292c90c6f270710e2eaf0baea45": {
+      "source": "<name=100001><br>Huh...<wait=40>I never thought the day would come when I'd feel nostalgic for<br>your jokes.<wait=110>",
+      "spanish": "<name=100001><br>Ja...<wait=40>Nunca pensé que llegaría el día en que echaría de menos<br>tus bromas.<wait=110>"
+    },
+    "9bed35702ccf5d2abc9cbc82580de2203e13a6055948fadc14bed1218b7ff3bb": {
+      "source": "<name=100002><br>It's okay!<wait=40><br>If we're all together<br>we'll never lose!<wait=110>",
+      "spanish": "<name=100002><br>¡No pasa nada!<wait=40><br>¡Mientras estemos todos juntos,<br>nunca perderemos!<wait=110>"
+    },
+    "1445a98b4155846a33adebf09e51fe3eea738e1c6755ee85aab00e3ea89d6385": {
+      "source": "<name=300002><br>Ah!<wait=100>",
+      "spanish": "<name=300002><br>¡Ah!<wait=100>"
+    },
+    "80579ecc73ac8a654c1e770ddf09f43ef12c12f7a18cf50c61a4a813a3bc897c": {
+      "source": "<name=300001><br><speed=3>My servants! <wait=40><br>Drag the fools in front of you into<br>the depths of darkness!<wait=120>",
+      "spanish": "<name=300001><br><speed=3>¡Siervos míos! <wait=40><br>¡Arrastrad a esos necios ante vosotros<br>hasta las profundidades de la oscuridad!<wait=120>"
+    },
+    "922ea9a570444abde63f8334b59305d40da1c092bf67e4627414d38d60c4bda1": {
+      "source": "<name=300001><br><speed=3>If you keep fighting<br> pointlessly, that's fine.<wait=110><br>",
+      "spanish": "<name=300001><br><speed=3>Seguid luchando<br>en vano, si eso es lo que queréis.<wait=110><br>"
+    },
+    "989dc89ecc1857ef86328f800e45f84874f61bd83dc0b8a782146a812a16c379": {
+      "source": "<name=300001><br><speed=3>There is no victory for you.<wait=100>",
+      "spanish": "<name=300001><br><speed=3>No tenéis ninguna posibilidad de vencer.<wait=100>"
+    },
+    "3dc1891bd597ca9065a202c2bb2a1fcf2a9a8b0358afeaca163a73e5bb2dd26d": {
+      "source": "<name=300001><br><speed=3>Be consumed by the<br>dark thoughts you have created,<wait=20><br>and fall into the bottomless darkness.<wait=120><br>",
+      "spanish": "<name=300001><br><speed=3>Dejaos consumir por los<br>pensamientos oscuros que vosotros mismos habéis creado,<wait=20><br>y precipitaos en las tinieblas insondables.<wait=120><br>"
+    },
+    "aad36a562570a9cf770dc6b0a0be45b1fe51c870d3211f9fd2a1b378ccb6c10d": {
+      "source": "<name=300001><br><speed=3>You truly foolish people.<wait=100>",
+      "spanish": "<name=300001><br><speed=3>¡Qué seres tan necios sois!<wait=100>"
+    },
+    "91d88a96a7b22b596cc972539ef77c320d2b99d2e714953cf534fb7eed4b0c36": {
+      "source": "<name=300001><br><speed=3>I wonder if anyone<br> will appear before this Dark Dragon King.<wait=110><br>",
+      "spanish": "<name=300001><br><speed=3>Quién iba a imaginar que alguien<br>se presentaría ante el Rey Dragón Oscuro.<wait=110><br>"
+    },
+    "ef67e9d9aea8aef2e3f33bf87121d6afe4e09b275741f68bbf580e604275214d": {
+      "source": "<name=300001><br><speed=3>This is the child of man.<wait=40><br>Is it the power of those who have evolved<br>on the basis of conflict?<wait=120><br>",
+      "spanish": "<name=300001><br><speed=3>Así que estos son los hijos del hombre.<wait=40><br>¿Es este el poder de quienes han evolucionado<br>a través del conflicto?<wait=120><br>"
+    },
+    "1ad799281aacfe69b02c2ce504f148d35ffb7b3411daf468f107aeae1b9448fd": {
+      "source": "<name=100000><br>We are not<br>fighting for love.<wait=110>",
+      "spanish": "<name=100000><br>No luchamos<br>porque nos guste hacerlo.<wait=110>"
+    },
+    "6b75ea95f344ce04d401061d2c936bb12bbbbd17473f743f8ac7ae07bdd5f93c": {
+      "source": "<name=100000><br>Dark Bahamut.<wait=40><br>Take your friends home.<wait=40><br>Then you won't have to fight.<wait=120>",
+      "spanish": "<name=100000><br>Bahamut oscuro.<wait=40><br>Llévate a tus compañeros y volved a casa.<wait=40><br>Así no tendremos que luchar.<wait=120>"
+    },
+    "f596322bf5847b11c5b3be609032f1ecd0281727588f27b047d2e09d6d7c9ff6": {
+      "source": "<name=300001><br><speed=3>You truly are stupid.<wait=40><br>Do you think you can defeat me...!<wait=110><br>",
+      "spanish": "<name=300001><br><speed=3>¡Qué insensatos sois!<wait=40><br>¿De verdad creéis que podéis derrotarme...?<wait=110><br>"
+    },
+    "6873793f84662d8a6862a90ed341c6d5ddad7ee5a7de4be43d1e82adef396b37": {
+      "source": "<name=300001><br><speed=3>What an insult!<wait=40>Thoughtful!<wait=40>Stupidity!<wait=40><br>Death is enough!<wait=120><br>",
+      "spanish": "<name=300001><br><speed=3>¡Qué insulto!<wait=40>¡Qué imprudencia!<wait=40>¡Qué necedad!<wait=40><br>¡Ni la muerte bastaría para pagarla!<wait=120><br>"
+    },
+    "2ed6fa4ff81efdf86e0f0b875ff8ee5c03878684fb478b7c85cc77cbfeea2443": {
+      "source": "<name=300001><br><speed=3>Receive my flame of darkness!<wait=40><br>I will wipe outyour soul, <wait=20>without leaving<br> a single speck of it!<wait=120><br>",
+      "spanish": "<name=300001><br><speed=3>¡Recibid mi llama de oscuridad!<wait=40><br>¡Borraré vuestra alma, <wait=20>sin dejar<br>ni el más mínimo rastro de ella!<wait=120><br>"
+    },
+    "ab28dd8cb1ca4f7f7c201c87b585aee4d9258f0458dece9e56d3cb41ddef24c0": {
+      "source": "<name=300001><br><speed=3>Ugh...<wait=40>I can't believe that a petty son of man would force <wait=20><br>I, the Dark Dragon King, to<br>so much pain...<wait=120><br>",
+      "spanish": "<name=300001><br><speed=3>¡Grrr...!<wait=40>¡No puedo creer que un insignificante hijo del hombre me cause <wait=20><br>a mí, el Rey Dragón Oscuro,<br>semejante sufrimiento...!<wait=120><br>"
+    },
+    "e54ccdf643bdfbc71626dc6a195ee50afd1207aa16ff963bffe2f28c5b81d2ad": {
+      "source": "<name=300001><br><speed=3>Where do you guys have such power...!<wait=100>",
+      "spanish": "<name=300001><br><speed=3>¿De dónde sacáis semejante poder...?!<wait=100>"
+    },
+    "35c68d76615185fa512a5c3785c1f17a956580d5832c2dea56e16f64b52ceff6": {
+      "source": "<name=100000><br>The human heart creates darkness, but<wait=20><br>it also creates light.<wait=110><br>",
+      "spanish": "<name=100000><br>El corazón humano puede crear oscuridad, pero<wait=20><br>también puede crear luz.<wait=110><br>"
+    },
+    "e050813f9a50ac3751ae56dd1ed313a4411cca713713a62f0a54a72b9dfd1e3c": {
+      "source": "<name=100001><br>Humans easily fall into darkness.<wait=40><br>They may be unstable and weak beings.<wait=110><br>",
+      "spanish": "<name=100001><br>Los humanos caen fácilmente en la oscuridad.<wait=40><br>Puede que seamos seres débiles e inestables.<wait=110><br>"
+    },
+    "aa6cfe19b89809dd39963d1745a7221d35946960294c459e54cf89f9dd7a12f2": {
+      "source": "<name=100002><br>But, as long as <wait=20><speed=3>people's hearts do not lose<br>light...<wait=110><br>",
+      "spanish": "<name=100002><br>Pero, mientras <wait=20><speed=3>los corazones de las personas no pierdan<br>su luz...<wait=110><br>"
+    },
+    "de79b718ad26d4b560bb247acbc2aac1969de0311d66d76303edd659efd1fbd3": {
+      "source": "<name=100000><br>Never succumb to the darkness!<wait=100>",
+      "spanish": "<name=100000><br>¡Nunca sucumbiremos a la oscuridad!<wait=100>"
+    },
+    "62a3245eb987fe5fb2a6308f4f0f34c479b8dd9e86ece423f6b984c71c6aa211": {
+      "source": "<name=300001><br><speed=3>Hehe, <wait=20>Hehehe...<wait=40><br>We, the Dark Ones, are beings born from<br>human hearts.<wait=120><br>",
+      "spanish": "<name=300001><br><speed=3>Je, je... <wait=20>Je, je, je...<wait=40><br>Nosotros, los seres de la oscuridad, nacemos<br>de los corazones humanos.<wait=120><br>"
+    },
+    "e80126bbf2567a4a6559fe716e8f5e558b5b923e52fcd6cc1619022f63a4567a": {
+      "source": "<name=300001><br><speed=3>It seems that you <br>understood the power of humans a little.<wait=110><br>",
+      "spanish": "<name=300001><br><speed=3>Parece que por fin habéis<br>comprendido un poco el poder de los humanos.<wait=110><br>"
+    },
+    "048835ecfecdc17915584294ef321d13e3339c5a3a91d9a1c0d19b8dea8a61e5": {
+      "source": "<name=300001><br><speed=3>Okay...<wait=40><br>This is your reward for making me suffer so much.<wait=110><br>",
+      "spanish": "<name=300001><br><speed=3>Muy bien...<wait=40><br>Esta será vuestra recompensa por hacerme sufrir tanto.<wait=110><br>"
+    },
+    "406dc1abb706bf5aceef54140b7d5bab261a2ef1ba156df6d9bcec477fbe281c": {
+      "source": "<name=300001><br><speed=3>Let me show you <br>the true power of the Dark Dragon King!<wait=110>",
+      "spanish": "<name=300001><br><speed=3>¡Os mostraré<br>el verdadero poder del Rey Dragón Oscuro!<wait=110>"
+    },
+    "4791f81bf507356dfb6f29398c294ef31f707e60a21a3d3894ec0aaff524b976": {
+      "source": "<name=100001><br>Damn!<wait=100>",
+      "spanish": "<name=100001><br>¡Maldita sea!<wait=100>"
+    },
+    "778faed5b31770aee56199309f212c7c7cce09031dcb4496b37eaa77792fe5bf": {
+      "source": "<name=100002><br>What a big and sinister power...!<wait=100>",
+      "spanish": "<name=100002><br>¡Qué poder tan inmenso y siniestro...!<wait=100>"
+    },
+    "2b22836d41d3effb1b19ea61a2a25e3d816d754f7be7b26b23a1ad686b32f31e": {
+      "source": "<name=100000><br>Is this the true power of the <wait=20>Dark Dragon King!<wait=100>",
+      "spanish": "<name=100000><br>¿Este es el verdadero poder del <wait=20>Rey Dragón Oscuro?!<wait=100>"
+    },
+    "98bec4599d72c425082ff49c21435e802da117a757406dfd2ffd08e4910feb68": {
+      "source": "<name=300001><br><speed=3>Son of man!<wait=40><br>Even more cruel<br>Taste my dark flames!<wait=120>",
+      "spanish": "<name=300001><br><speed=3>¡Hijo del hombre!<wait=40><br>¡Probad unas llamas oscuras<br>aún más crueles!<wait=120>"
     }
   }
 }
