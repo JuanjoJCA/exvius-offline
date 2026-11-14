@@ -59,6 +59,90 @@
     "9200ff2e91764a212cb3cf9794171d6c6e21b83b7b29197a21233ce8c1404df0": {
       "source": "<name=100002><br>(O-oh, <wait=20>what should I do?<wait=40><br>　I don’t want to worry them<br>　unnecessarily...)<wait=160><br>",
       "spanish": "<name=100002><br>(¿Y-y ahora qué hago?<wait=40><br>　No quiero preocuparlos<br>　sin necesidad...)<wait=160><br>"
+    },
+    "659816a520be99b9b12b8e5c0ddcf337b2d703c55b467ed61457da43333d3f63": {
+      "source": "<name=100000><br>Sounds like there’s a story behind it.<wait=40><br>Fina will tell us when she’s<br>ready to talk, right?<wait=160><br>",
+      "spanish": "<name=100000><br>Seguro que hay una explicación.<wait=40><br>Fina nos lo contará cuando<br>esté preparada, ¿verdad?<wait=160><br>"
+    },
+    "93d5985859df24a1359fd869d1973dabadfcd16bb5d1662bec0f1324278cf4e3": {
+      "source": "<name=100001><br>……I see.<wait=40><br>I won’t press you for answers, then.<wait=40><br>I’ll wait until the time is right.<wait=160><br>",
+      "spanish": "<name=100001><br>……Ya veo.<wait=40><br>No voy a insistir para que nos lo cuentes.<wait=40><br>Esperaré al momento adecuado.<wait=160><br>"
+    },
+    "170dc88a4c884aec77acbf512ad3dcf613722e01e03f993b324d625031c431d7": {
+      "source": "<name=100002><br>Rain, <wait=20>Lasswell, <wait=20>thank you.<wait=120>",
+      "spanish": "<name=100002><br>Rain, <wait=20>Lasswell, <wait=20>gracias.<wait=120>"
+    },
+    "056ef484591177b044315c831b04ac96583f5063513772cc73a289582b06e1aa": {
+      "source": "<name=100002><br>I’m so happy <wait=20>to see you both again!<wait=120>",
+      "spanish": "<name=100002><br>¡Me alegro muchísimo <wait=20>de volver a veros!<wait=120>"
+    },
+    "2bcd92922ae78f44810f6aebe01ca17292048e0f9654c585afea8bb8e21a3cdf": {
+      "source": "<name=100000><br>I’m happy too.<wait=120>",
+      "spanish": "<name=100000><br>Yo también me alegro.<wait=120>"
+    },
+    "68c9fd2bf6102f976427670553a892b11800516dbb6ed2942392c281a393547a": {
+      "source": "<name=100000><br>……Though, <wait=20>it seems we can’t just <br>rejoice for long.<wait=140><br>",
+      "spanish": "<name=100000><br>……Aunque <wait=20>parece que no podremos<br>alegrarnos durante mucho tiempo.<wait=140><br>"
+    },
+    "83a3b84916e275182d06be8dc29dcd713a4e0590f9c30ff26d9e852533f26a01": {
+      "source": "<name=100001><br>So, you noticed it too, Rain? <wait=40><br>This… <wait=40><speed=3>this incredibly <br>sinister presence.<wait=160><br>",
+      "spanish": "<name=100001><br>Así que tú también lo has notado, ¿eh, Rain? <wait=40><br>Esta... <wait=40><speed=3>esta presencia tan <br>siniestra.<wait=160><br>"
+    },
+    "0e7ac18eab3b2ef31e5a785ad56eb6cbae496936f6c87c77870e217050f552fd": {
+      "source": "<name=100000><br>Yeah. <wait=40><br>There must be a reason <br>why we were summoned here.<wait=140><br>",
+      "spanish": "<name=100000><br>Sí. <wait=40><br>Seguro que hay una razón <br>por la que nos han invocado aquí.<wait=140><br>"
+    },
+    "db1bcba28bc1f1857b447f49fab704c51fada7397d430974de5887d122b15c84": {
+      "source": "<name=100000><br><speed=4>And that reason is, <wait=20>most likely…<wait=120>",
+      "spanish": "<name=100000><br><speed=4>Y esa razón es, <wait=20>probablemente…<wait=120>"
+    },
+    "23b520ac71fd591b1f06b776d169ec642ffc443b7e2bde30141701aad8cb1343": {
+      "source": "<name=100002><br>Rain!<wait=40> Lasswell!<wait=40><br>Look at that!<wait=120>",
+      "spanish": "<name=100002><br>¡Rain!<wait=40> ¡Lasswell!<wait=40><br>¡Mirad eso!<wait=120>"
+    },
+    "57bd2683326424e20534791549400b7bf0ba1ca1aab882fa48bf212c9d2a5f2c": {
+      "source": "<name=100000><br><speed=4>W-what<wait=20> is<wait=20> that...?!<wait=120>",
+      "spanish": "<name=100000><br><speed=4>¿Q-qué<wait=20> es<wait=20> eso...?!<wait=120>"
+    },
+    "1769a0ca3d630e71888688624b46d2559352f999a3513aa684f04be22a902751": {
+      "source": "<name=100001><br><speed=4>A black...<wait=40> crystal...?!<wait=120>",
+      "spanish": "<name=100001><br><speed=4>¿Un cristal...<wait=40> negro...?!<wait=120>"
+    },
+    "b16a6efb8aa84e5a67094b8067818aa31e6525d54526d561ba715c6a3d2a6b8d": {
+      "source": "<name=100001><br><speed=4>……<wait=60>It seems the reason we’re here<wait=15><br>is connected to the hole<br> created by that crystal.<wait=120>",
+      "spanish": "<name=100001><br><speed=4>……<wait=60>Parece que nuestra presencia aquí<wait=15><br>está relacionada con el agujero<br>que ha creado ese cristal.<wait=120>"
+    },
+    "d236360af5c0b2d1a3b3035b5fa6c18a80b1b9f36b45f5b38d5c3d9df2f63c30": {
+      "source": "<name=100000><br>Perhaps the Moogles’ plea for help<wait=15><br>is what<br> brought us here.<wait=120>",
+      "spanish": "<name=100000><br>Quizá la petición de ayuda de los moguris<wait=15><br>sea lo que nos<br>ha traído hasta aquí.<wait=120>"
+    },
+    "897d48be84a8481a1f883099045bacfaecef431b83e53ef47172cdb4b9a02150": {
+      "source": "<name=100000><br>This is bound to be a major battle.<wait=120>",
+      "spanish": "<name=100000><br>Está claro que nos espera una gran batalla.<wait=120>"
+    },
+    "09735e61d20db441a2c417c733c735fdae3f783976e1f23b644f75d3c15c8458": {
+      "source": "<name=100002><br>But as long as we’re together,<br>we can overcome anything!<wait=45><br>Right?<wait=120>",
+      "spanish": "<name=100002><br>Pero mientras sigamos juntos,<br>¡podremos superar cualquier cosa!<wait=45><br>¿A que sí?<wait=120>"
+    },
+    "0e8c7afc68d3a06e18974cbe52b4c94648ecf602140b82ed88f1c6942557ac96": {
+      "source": "<name=100000><br>Yeah!<wait=90>",
+      "spanish": "<name=100000><br>¡Sí!<wait=90>"
+    },
+    "076db025aadb805651efc4b5112175f55c8d329e224c3412e978e28e9943a034": {
+      "source": "<name=100001><br>Exactly.<wait=30><br>No matter how formidable the enemy, we can do it.<wait=15><br>We can…!<wait=120>",
+      "spanish": "<name=100001><br>Exactamente.<wait=30><br>Por temible que sea el enemigo, podremos vencerlo.<wait=15><br>¡Podemos hacerlo…!<wait=120>"
+    },
+    "a256adc90d946e064e2a127605f11d7178fea472fd3faf3fd24ea396cee120fd": {
+      "source": "<name=300003><br>Huh...<wait=45>What a vision of the Son of Man<br>to arrive at such a place.<wait=120>",
+      "spanish": "<name=300003><br>Vaya...<wait=45>Quién iba a imaginar que una visión humana<br>llegaría hasta un lugar como este.<wait=120>"
+    },
+    "d9280b058bd0cbd65ccc945e1db3cf918c5d1ee4c548a22f0da905cd6005d30d": {
+      "source": "<name=100002><br>This figure...<wait=60><br>Could it be Ramuh?<wait=120>",
+      "spanish": "<name=100002><br>Esta figura...<wait=60><br>¿Podría ser Ramuh?<wait=120>"
+    },
+    "416495617eecb2ba5ab9ea3cd79cbaa0dc3f91ed5a158946bdb356697b830689": {
+      "source": "<name=100001><br>Probably. <wait=45><br>However, <wait=15>it seems to be different<br> from the Ramuh we know.<wait=120>",
+      "spanish": "<name=100001><br>Eso parece. <wait=45><br>Pero <wait=15>no parece ser el mismo Ramuh<br>que conocemos.<wait=120>"
     }
   }
 }
