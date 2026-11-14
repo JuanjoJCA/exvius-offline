@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Extract translatable JSON string values without changing source resources."""
+"""Extract translatable JSON string values without changing source resources.
+
+The generated catalogue is intentionally published as a workflow artifact:
+large game-data inventories can exceed GitHub's 100 MB per-file Git limit.
+"""
 import argparse
 import hashlib
 import json
