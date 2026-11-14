@@ -154,12 +154,12 @@ def apply_spanish_dialogue(archive, members):
                 raise ValueError('Invalid Spanish translation source: ' + key)
             if re.findall(r'<[^>]+>', normalize_dialogue_commands(cells[0])) != re.findall(r'<[^>]+>', spanish):
                 raise ValueError('Spanish translation changed original game commands: ' + key)
-            if '^' in spanish or '\\n' in spanish or '\\r' in spanish:
+            if '^' in spanish or '\n' in spanish or '\r' in spanish:
                 raise ValueError('Spanish translation cannot change the localized row structure: ' + key)
             cells[0] = spanish
             repaired += 1
         if repaired:
-            archive.replace_bytes(index, ''.join('^'.join([i] + cells) + '\\n'
+            archive.replace_bytes(index, ''.join('^'.join([i] + cells) + '\n'
                                                  for i, cells in values.items()).encode('utf8'))
             changed += repaired
     return changed
