@@ -187,6 +187,34 @@
     "0734c20b6e86ae0af8669ab00bda717c4b4649205983e4e4473e65405633561c": {
       "source": "<name=100000><br>Everyone! Let's attack!<wait=120>",
       "spanish": "<name=100000><br>¡Todos! ¡A por ellos!<wait=120>"
+    },
+    "905064c1fea303eee7076a620d3580700061e08fd8d6e0ee6b0526bec3dc47f7": {
+      "source": "<name=300003><br>Do you think that you can<br> defeat me just by defeating the monsters?<wait=120>",
+      "spanish": "<name=300003><br>¿De verdad crees que puedes<br>vencerme solo por derrotar a mis monstruos?<wait=120>"
+    },
+    "ee00d8654672f81b501036c680423ac33efc146664c30de9f718c7acc347f95f": {
+      "source": "<name=100000><br>You are the only one left.<wait=120>",
+      "spanish": "<name=100000><br>Solo quedas tú.<wait=120>"
+    },
+    "17582fd0d1f353601ce30c9324a371db14a150bca8a84705a2173c67156a559a": {
+      "source": "<name=300003><br>Don't be too conceited, human beings!<wait=120>",
+      "spanish": "<name=300003><br>¡No os volváis demasiado arrogantes, humanos!<wait=120>"
+    },
+    "30514b8d1713a9abcdf6a3217f14ac7c72605a2d52bc93b6f158fa818d366d3b": {
+      "source": "<name=300003><br>With this flame imbued with dark power,<br>burn your heart and bones<br>turn it into a silent charcoal!<wait=120>",
+      "spanish": "<name=300003><br>¡Con estas llamas imbuidas de poder oscuro,<br>os abrasaré hasta los huesos<br>y os reduciré a cenizas!<wait=120>"
+    },
+    "233c4bc1e01ea6796a482bb3cac02cf92c5414b074ee19009c43d61264c8cf53": {
+      "source": "<name=100002><br>Looks like we won somehow...<wait=120>",
+      "spanish": "<name=100002><br>Parece que, de algún modo, hemos ganado...<wait=120>"
+    },
+    "96f3b0fbf51c6f7998304f7546e55936e0db3a80b0bf3e925b71471837a976db": {
+      "source": "<name=100001><br>It seems their power is stronger than we<br>think.<wait=120>",
+      "spanish": "<name=100001><br>Su poder parece ser mucho mayor<br>de lo que imaginábamos.<wait=120>"
+    },
+    "595a505186815b9ab18af8eb1b0c8f05f55d5a0fb2de67a33db130142b565900": {
+      "source": "<name=100000><br>Still, we cannot afford to lose.<wait=60><br>Together, we will <br>win this battle!<wait=120>",
+      "spanish": "<name=100000><br>Aun así, no podemos permitirnos perder.<wait=60><br>Unamos nuestras fuerzas y<br>¡ganaremos esta batalla!<wait=120>"
     }
   }
 }
