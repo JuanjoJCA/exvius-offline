@@ -13,6 +13,9 @@
 - Últimos lotes: 11 cadenas para completar 700010304, 7 para 700010305–700010306, 29 para 700010501–700010503, 32 para 700010601–700010603, 39 para 700010701–700010703 y 13 nombres/etiquetas de apoyo del prólogo y del mapa de Tetra Sylphid. Se conservan los comandos y la estructura original.
 - El inventario del APK comunitario cubre JSON; quedan por clasificar y revisar otros formatos y recursos.
 
+
+- Auditoría del siguiente bloque: el catálogo de recuperación contiene 143 registros para 700010401–700010408, distribuidos en 23, 12, 12, 17, 52, 5, 13 y 9 entradas por escena. Estos registros incluyen nombres y diálogos. El campo inglés se ha recuperado/traducido desde recursos japoneses preservados; no debe confundirse automáticamente con un guion oficial inglés. Revisar el sentido y la terminología antes de publicar cada lote.
+
 ## Siguientes fases
 
 - Siguiente bloque de diálogos identificado en el catálogo fuente: escenas 700010401–700010408 (evento del 4.º aniversario), 143 cadenas en total. Traducir por subescenas y validar cada lote; después continuar con el resto de escenas y recursos pendientes.
