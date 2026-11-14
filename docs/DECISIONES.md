@@ -17,5 +17,7 @@
 - Para que el cliente existente muestre español sin cambiar su selector interno, el inyector sustituye únicamente la primera celda (EN) por una traducción española revisada. No se escribe en la columna ES, que el cliente no está solicitando.
 - Se añade `source/server/content/dialogue_es.json`, indexado por SHA-256 del texto inglés exacto. El inyector verifica origen, etiquetas de control y separadores antes de escribir.
 - Se añaden pruebas independientes de las dependencias nativas y un workflow de GitHub Actions. El workflow ha validado correctamente el catálogo inicial.
-- El primer lote contiene 14 diálogos del prólogo. Es una prueba de integración, no una cobertura funcional amplia.
+- El primer lote contiene 35 diálogos del prólogo y el primer encuentro con Ifrit; todas las fuentes inglesas se verificaron contra el catálogo aceptado y los comandos de control se comparan en CI. Es una prueba de integración, no una cobertura funcional amplia.
 - La compilación final sigue bloqueada hasta resolver la discrepancia entre el APK comunitario analizado (v0.1.25) y los requisitos de compilación documentados para el cliente Global original v9.0.0, así como las herramientas externas y la clave de firma local.
+
+- Los paquetes de datos grandes no están incluidos en el árbol Git: `data/README.md` indica que se descargan desde las releases. Se prioriza un overlay incremental y selectivo; no se descargará el conjunto completo de datos sin necesidad.
