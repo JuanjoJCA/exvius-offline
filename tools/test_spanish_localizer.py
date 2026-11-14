@@ -42,6 +42,16 @@ class SpanishDialogueTests(unittest.TestCase):
             "210001^" + spanish + "^ZH^KO^FR^DE^ES^TH^ID\n"
         )
 
+    def test_unknown_source_is_left_untouched(self):
+        source = "A line without a reviewed translation"
+        archive = MemoryArchive(("210001^" + source + "^^^^^^^\\n").encode("utf-8"))
+        with patch.object(localizer, "_DIALOGUE_SPANISH", {}):
+            changed = localizer.apply_spanish_dialogue(
+                archive, {"123_event_text_sg.txt": 0}
+            )
+        self.assertEqual(changed, 0)
+        self.assertIn(source.encode("utf-8"), archive.file_bytes(0))
+
     def test_translation_cannot_remove_game_commands(self):
         source = "<name=300001><br>Hello!<keywait>"
         spanish = "¡Hola!"
