@@ -1,0 +1,52 @@
+name: Extraer cadenas
+
+on:
+  push:
+    branches: [traduccion-es]
+    paths:
+      - "tools/extract_strings.py"
+      - "tools/reinject_strings.py"
+      - ".github/workflows/extraer.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  extraer:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: traduccion-es
+      - name: Instalar apktool
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y apktool
+      - name: Verificar APK original
+        id: apk
+        run: |
+          APK="release/exvius-offline-v0.1.25.apk"
+          test -f "$APK"
+          echo "path=$APK" >> "$GITHUB_OUTPUT"
+          sha256sum "$APK"
+      - name: Decodificar en carpeta temporal
+        run: apktool d -f "${{ steps.apk.outputs.path }}" -o work/apktool-decoded
+      - name: Extraer cadenas JSON
+        run: python3 tools/extract_strings.py --root work/apktool-decoded/assets --out strings
+      - name: Guardar inventario extraído
+        uses: actions/upload-artifact@v4
+        with:
+          name: ffbe-cadenas-extraidas
+          path: |
+            strings/en.json
+            strings/es.json
+          retention-days: 30
+      - name: Incorporar archivos de cadenas
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add strings/en.json strings/es.json
+          git commit -m "feat: incorporar inventario inicial de cadenas"
+          git push origin HEAD:traduccion-es
