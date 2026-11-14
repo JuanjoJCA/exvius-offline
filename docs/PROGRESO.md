@@ -30,3 +30,12 @@
 - No traducir identificadores ni modificar etiquetas, variables o estructura de tablas.
 - Validar las fuentes, hashes y comandos antes de aceptar cada lote.
 - No publicar claves, firmas ni binarios propietarios.
+
+## Plan de APK de prueba (14-11-2026)
+
+- Se ha documentado la secuencia de validación, compilación, firma e instalación en [PLAN_APK_PRUEBA_ES.md](PLAN_APK_PRUEBA_ES.md).
+- Se ha verificado que la localización se integra en `source/exvius/fill_content_from_memorial.py` durante la generación de paquetes CPK; no basta con editar un JSON aislado.
+- El proceso de distribución existente está en `source/exvius/build_distribution.ps1` y requiere Windows, Java 11, Python 3.10, Node.js, Android SDK platform 33/build-tools 36.0.0, Gradle 7.6.4, apktool 3.0.3, Frida Gadget 17.24.3 arm64 y dependencias auxiliares.
+- Bloqueo de compilación verificado: no están versionados en el repositorio `repository snapshots/FFBE-Global-v9.0.0-original.apk` ni `tools/vendor/`. Se necesita el APK original autorizado que coincida con el SHA-256 fijado en `source/exvius/android_build.py`, y las herramientas externas locales. No se afirma que exista una APK española compilada.
+- La APK de prueba debe usar el identificador separado `com.exvius.offline.test`, conservar la APK original instalada y firmarse con un keystore de pruebas propio. No subir APK original, keystore, contraseñas ni binarios propietarios.
+- Próximo trabajo de traducción: revisar y traducir por subescenas las 143 entradas 700010401–700010408 antes de incorporarlas al catálogo aceptado. La fuente inglesa recuperada desde japonés requiere revisión semántica.
