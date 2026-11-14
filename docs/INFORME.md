@@ -106,23 +106,23 @@
 | .brk | 9 |
 | .tsv | 8 |
 | .kotlin_builtins | 7 |
-| .mf | 6 |
 | .icu | 6 |
+| .mf | 6 |
 | .txt | 4 |
 | .c | 4 |
+| [sin extensión] | 4 |
 | .nrm | 4 |
 | .dict | 4 |
-| [sin extensión] | 4 |
 | .aidl | 3 |
 | .html | 2 |
 | .proto | 2 |
-| .threadchecker | 2 |
-| .e$c | 2 |
-| .controlledlooper | 2 |
+| .k0 | 2 |
 | .shadowsadapter | 2 |
+| .d | 2 |
+| .e$c | 2 |
+| .z | 2 |
 | .a | 2 |
 | .provider | 2 |
-| .d | 2 |
 
 ## Diagnóstico de recursos y textos
 
