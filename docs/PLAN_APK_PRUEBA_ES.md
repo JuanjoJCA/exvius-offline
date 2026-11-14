@@ -32,12 +32,10 @@ El repositorio no contiene `repository snapshots/FFBE-Global-v9.0.0-original.apk
    - `node source/exvius/test_home_carousel.js`
    - `node source/exvius/test_summon_art.js`
    - `python source/exvius/test_release_data.py`
-6. Construir el runtime Android integrado con el Gradle Wrapper incluido: `java -cp source/memorial/android/gradle/wrapper/gradle-wrapper.jar org.gradle.wrapper.GradleWrapperMain -p source/memorial/android --no-daemon assembleDebug`.
-7. Preparar el cliente de prueba con `python source/exvius/android_build.py --local-engine --speed 1 --release-version 9.0.0-es-test.1 --release-code 9003`.
-8. Compilar, alinear y firmar con el script existente, usando una versión de prueba distinta y el keystore local: `powershell -ExecutionPolicy Bypass -File source/exvius/build_distribution.ps1 -Version 0.1.32-es-test -ClientVersion 9.0.0-es-test.1 -VersionCode 9003 -KeyStore tools/vendor/exvius-test.jks -KeyAlias exvius-test`.
-9. Verificar la firma con `apksigner verify`, revisar el manifiesto y el identificador de paquete de prueba, y calcular SHA-256 del APK resultante.
-10. Instalar en un dispositivo Android arm64 sin desinstalar ni sobrescribir la app original. El cliente de prueba cambia el identificador de paquete a `com.exvius.offline.test`, lo que permite mantener ambas instalaciones separadas.
-11. Probar arranque, descarga/preparación de datos, prólogo, diálogos de Ifrit, nombres de personajes, textos de mapa, saltos de línea y comandos de diálogo. Registrar capturas y errores de Logcat antes de ampliar la cobertura.
+6. Ejecutar el orquestador existente, que realiza las pruebas de interfaz/datos, compila el runtime Android con el Gradle Wrapper, prepara el cliente, compila el bundle nativo, empaqueta, alinea, firma y verifica la APK: `powershell -ExecutionPolicy Bypass -File source/exvius/build_distribution.ps1 -Version 0.1.32-es-test -ClientVersion 9.0.0-es-test.1 -VersionCode 9003 -KeyStore tools/vendor/exvius-test.jks -KeyAlias exvius-test`.
+7. Confirmar que `source/exvius/finalize_distribution.py` termina correctamente; revisar el manifiesto y el identificador de paquete de prueba, y calcular SHA-256 del APK resultante.
+8. Instalar en un dispositivo Android arm64 sin desinstalar ni sobrescribir la app original. El cliente de prueba cambia el identificador de paquete a `com.exvius.offline.test`, lo que permite mantener ambas instalaciones separadas.
+9. Probar arranque, descarga/preparación de datos, prólogo, diálogos de Ifrit, nombres de personajes, textos de mapa, saltos de línea y comandos de diálogo. Registrar capturas y errores de Logcat antes de ampliar la cobertura.
 
 ## Criterios de aceptación
 
