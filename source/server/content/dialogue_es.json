@@ -58,7 +58,7 @@
     },
     "9200ff2e91764a212cb3cf9794171d6c6e21b83b7b29197a21233ce8c1404df0": {
       "source": "<name=100002><br>(O-oh, <wait=20>what should I do?<wait=40><br>　I don’t want to worry them<br>　unnecessarily...)<wait=160><br>",
-      "spanish": "<name=100002><br>(¿Y-y ahora qué hago?<wait=40><br>　No quiero preocuparlos<br>　sin necesidad...)<wait=160><br>"
+      "spanish": "<name=100002><br>(<wait=20>¿Y-y ahora qué hago?<wait=40><br>　No quiero preocuparlos<br>　sin necesidad...)<wait=160><br>"
     },
     "659816a520be99b9b12b8e5c0ddcf337b2d703c55b467ed61457da43333d3f63": {
       "source": "<name=100000><br>Sounds like there’s a story behind it.<wait=40><br>Fina will tell us when she’s<br>ready to talk, right?<wait=160><br>",
