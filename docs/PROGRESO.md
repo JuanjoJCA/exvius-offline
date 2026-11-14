@@ -39,3 +39,11 @@
 - Bloqueo de compilación verificado: no están versionados en el repositorio `repository snapshots/FFBE-Global-v9.0.0-original.apk` ni `tools/vendor/`. Se necesita el APK original autorizado que coincida con el SHA-256 fijado en `source/exvius/android_build.py`, y las herramientas externas locales. No se afirma que exista una APK española compilada.
 - La APK de prueba debe usar el identificador separado `com.exvius.offline.test`, conservar la APK original instalada y firmarse con un keystore de pruebas propio. No subir APK original, keystore, contraseñas ni binarios propietarios.
 - Próximo trabajo de traducción: revisar y traducir por subescenas las 143 entradas 700010401–700010408 antes de incorporarlas al catálogo aceptado. La fuente inglesa recuperada desde japonés requiere revisión semántica.
+
+
+## Preparación de compilación local (14-11-2026)
+
+- Se verificó el APK original aportado por Juanjo: SHA-256 `955deacfbe4b3d0cd04e2947eb005e310915ba98132d71216626bfb3554ad246`; coincide con el hash fijado por `android_build.py`.
+- Se añadió `tools/build_spanish_test_apk.ps1` para automatizar el staging del APK, las dos decodificaciones apktool (cliente sin smali y código smali), la reparación de CPK con el catálogo español, la regeneración de paquetes, las pruebas, la compilación y la firma local.
+- Se documentó su uso y los recursos locales que faltan en `docs/PLAN_APK_PRUEBA_ES.md`.
+- La APK todavía no está compilada ni instalada. El entorno de esta sesión no es Windows y no dispone de las herramientas privadas ignoradas por Git ni de los datos fuente locales completos. El lanzador requiere esos recursos en un Windows preparado y no publica los paquetes de datos por sí solo.
