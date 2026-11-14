@@ -3,8 +3,10 @@ name: Analizar APK
 on:
   push:
     branches: [traduccion-es]
-    paths-ignore:
-      - "docs/INFORME.md"
+    paths:
+      - "release/*.apk"
+      - "tools/analyze_apk.py"
+      - ".github/workflows/analizar.yml"
   workflow_dispatch:
 
 permissions:
