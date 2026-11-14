@@ -73,3 +73,16 @@ El lanzador no descarga herramientas de terceros. Antes de ejecutarlo deben esta
 El script solicita la contraseña del keystore de pruebas y no la guarda en Git. El APK original y el keystore permanecen locales.
 
 **Publicación pendiente:** el script regenera los paquetes de datos localizados en `source/build/distribution/assets`, pero no los publica. Para que el juego descargue los datos al arrancar, esos paquetes deben publicarse como assets de la release indicada por `-DataTag`.
+
+
+### Preparación automática de dependencias auxiliares
+
+Con Java 11, Python 3.10 y Node.js/npm ya instalados, ejecutar primero:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File tools/prepare_android_build_dependencies.ps1
+```
+
+Este preparador descarga apktool 3.0.3 y verifica su SHA-256, descarga y descomprime Frida Gadget 17.24.3 arm64, instala `frida-compile` 19.1.0 y `cricodecs` 1.2.0 en `tools/vendor/`. Las versiones de apktool y Frida se corresponden con las fijadas por el proyecto; la descarga de apktool se valida contra el hash publicado en su distribución. <Cite refs="turn265394search1,turn265394search2,turn265394search11,turn120551search0,turn493374search5" />
+
+Sigue siendo necesario instalar Android SDK platform 33 y build-tools 36.0.0, y disponer de los datos fuente completos del juego bajo `data/`. El script principal comprueba los requisitos antes de modificar o generar artefactos.
