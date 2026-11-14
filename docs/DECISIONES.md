@@ -21,3 +21,11 @@
 - La compilación final sigue bloqueada hasta resolver la discrepancia entre el APK comunitario analizado (v0.1.25) y los requisitos de compilación documentados para el cliente Global original v9.0.0, así como las herramientas externas y la clave de firma local.
 
 - Los paquetes de datos grandes no están incluidos en el árbol Git: `data/README.md` indica que se descargan desde las releases. Se prioriza un overlay incremental y selectivo; no se descargará el conjunto completo de datos sin necesidad.
+
+
+## 2026-11-14 — Auditoría del evento del cuarto aniversario
+
+- El catálogo de recuperación `source/server/content/dialogue_en.json` contiene 143 registros asociados a las escenas `700010401.cpk`–`700010408.cpk`.
+- Los registros se distribuyen por escena en 23, 12, 12, 17, 52, 5, 13 y 9 entradas. Incluyen tanto nombres de personajes como líneas de diálogo.
+- El campo `english` del catálogo se generó a partir de texto japonés preservado; por tanto, sirve como fuente de trabajo, pero no se debe presentar como transcripción oficial inglesa ni aceptar traducciones dudosas sin revisar el original y el contexto.
+- La traducción española se incorporará por subescenas, con hash SHA-256 del texto inglés exacto y comprobación de etiquetas de control. No se modificará el catálogo de recuperación original.
