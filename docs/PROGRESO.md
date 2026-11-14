@@ -3,20 +3,26 @@
 ## Estado actual
 
 - Fase 1 — análisis del APK: completada. APK v0.1.25 decodificada correctamente con apktool.
-- Fase 2 — inventario inicial: extracción completada como artefacto de GitHub Actions. Se analizaron 43 archivos JSON y se recogieron 1.691.933 valores de texto.
-- El catálogo completo se conserva como artefacto de la ejecución [43623959118](https://github.com/JuanjoJCA/exvius-offline/actions/runs/43623959118), no dentro de Git, porque el JSON generado supera el límite de 100 MB por archivo.
-- Importante: el inventario incluye todos los valores de tipo cadena de esos JSON; todavía no equivale a 1.691.933 frases traducibles. Hay que clasificar y filtrar identificadores, datos técnicos, nombres, diálogos y textos visibles.
-- Cobertura actual: solo JSON. No se han inventariado todavía otros formatos de recursos del juego.
+- Fase 2 — inventario inicial: extracción completada. Se analizaron 43 archivos JSON y se recogieron 1.691.933 valores de tipo cadena.
+- El inventario completo se conserva como artefacto de GitHub Actions [43623959118](https://github.com/JuanjoJCA/exvius-offline/actions/runs/43623959118), no dentro de Git, porque el JSON generado supera el límite de 100 MB por archivo.
+- Se ha confirmado en el código y la documentación del cliente v9.0.0 que el cliente solicita el idioma `LANGUAGE_ENGLISH` y que las tablas localizadas CPK usan ocho columnas: EN, ZH, KO, FR, DE, ES, TH e ID.
+- Se ha añadido un inyector seguro que coloca el texto español revisado en la primera columna que el cliente realmente lee, preservando las otras siete columnas y los comandos del juego.
+- Catálogo inicial: 14 diálogos del prólogo, con fuentes inglesas verificadas contra el catálogo de recuperación existente.
+- Validación automática: sintaxis, estructura del catálogo, hashes de origen, etiquetas de control y conservación de columnas. La ejecución [43624975703](https://github.com/JuanjoJCA/exvius-offline/actions/runs/43624975703) terminó correctamente.
+- Cobertura actual: el catálogo español solo contiene esas 14 entradas. No se declara una traducción completa ni un porcentaje global.
+- El inventario del APK comunitario cubre JSON; quedan por clasificar y revisar otros formatos y recursos.
 
 ## Siguientes fases
 
-- Fase 2b — clasificación: identificar los archivos y campos que contienen texto visible y priorizar diálogos, misiones, habilidades e interfaz.
-- Fase 3 — traducción: todavía no iniciada. No se declara porcentaje de traducción.
-- Fase 4 — reinyección y construcción: todavía no iniciada. El APK original permanece intacto.
+- Ampliar el catálogo de diálogos por escenas y revisar nombres de personajes y terminología.
+- Traducir habilidades, interfaz, misiones, objetos y textos de sistema mediante sus fuentes correspondientes.
+- Integrar el catálogo en la generación de paquetes de datos y comprobarlo con el cliente objetivo.
+- Resolver y verificar la cadena de construcción APK para la versión exacta que se vaya a distribuir.
 
 ## Criterios
 
 - Trabajar exclusivamente en la rama `traduccion-es`; no modificar `main`.
 - No sustituir ni alterar el APK original.
-- Validar etiquetas, marcadores y variables antes de reintegrar traducciones.
+- No traducir identificadores ni modificar etiquetas, variables o estructura de tablas.
+- Validar las fuentes, hashes y comandos antes de aceptar cada lote.
 - No publicar claves, firmas ni binarios propietarios.
